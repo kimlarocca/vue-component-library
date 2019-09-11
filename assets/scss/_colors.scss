@@ -1,0 +1,25 @@
+@import 'variables';
+
+$colors: (
+  yellow: $yellow,
+  brown: $brown,
+  purple: $purple,
+  blue: $blue,
+  orange: $orange,
+  light-gray: $light-gray,
+  medium-gray: $medium-gray,
+  dark-gray: $dark-gray,
+  black: black,
+  white: white
+);
+
+@mixin gen-props($prefix, $property) {
+  @each $color-name, $color in $colors {
+    .#{$prefix}-#{$color-name} {
+      #{$property}: $color
+    }
+  }
+}
+
+@include gen-props('text', 'color');
+@include gen-props('bg', 'background');

@@ -1,0 +1,192 @@
+@import "variables";
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot');
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2') format('woff2'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff') format('woff'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf') format('truetype'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot');
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2') format('woff2'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff') format('woff'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf') format('truetype'),
+  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+
+h1,
+.like-h1 {
+  font-size: 4.5rem;
+  line-height: 5.125rem;
+  text-transform: none;
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+}
+
+h2,
+.like-h2 {
+  font-size: 3.5rem;
+  line-height: 4.125rem;
+  text-transform: none;
+  font-family: $secondary-font-family;
+  font-weight: normal;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: 2rem;
+    line-height: 4.125rem;
+  }
+}
+
+h3,
+.like-h3 {
+  font-size: 1.6875rem;
+  line-height: 2.125rem;
+  text-transform: none;
+  font-family: $secondary-font-family;
+  font-weight: normal;
+}
+
+p {
+  font-size: .9375rem;
+  line-height: 1.25rem;
+  margin-bottom: 1rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+}
+
+.subhead1 {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  text-transform: uppercase;
+  font-family: $primary-font-family;
+  font-weight: normal;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+  }
+  &.no-transform {
+    text-transform: none;
+  }
+}
+
+.subhead2 {
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  font-family: $primary-font-family;
+  font-weight: normal;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  &.no-transform {
+    text-transform: none;
+  }
+}
+
+.subhead3 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+  font-weight: normal;
+}
+
+.subhead4 {
+  font-size: 1.375rem;
+  line-height: 2rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+  font-weight: normal;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
+}
+
+.subhead5 {
+  font-size: .9rem;
+  line-height: .9rem;
+  letter-spacing: .1rem;
+  font-family: $primary-font-family;
+  text-transform: uppercase;
+  font-weight: normal;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: .8333rem;
+    line-height: 1.25rem;
+  }
+  &.no-transform {
+    text-transform: none;
+  }
+}
+
+.subhead6 {
+  font-size: .75rem;
+  line-height: .75rem;
+  letter-spacing: .1rem;
+  font-family: $primary-font-family;
+  text-transform: uppercase;
+  font-weight: normal;
+  &.no-transform {
+    text-transform: none;
+  }
+}
+
+.body-text1 {
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+}
+
+.body-text2 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+}
+
+.body-text3 {
+  font-size: .98375rem;
+  line-height: 1.4375rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+  @media all and (max-width: $breakpoint-mobile) {
+    font-size: .75rem;
+    line-height: 1rem;
+  }
+}
+
+.body-text4 {
+  font-size: .6875rem;
+  line-height: 1rem;
+  text-transform: none;
+  font-family: $primary-font-family;
+}

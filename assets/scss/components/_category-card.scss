@@ -1,0 +1,114 @@
+@import "../variables";
+
+.category-cards {
+
+  width: 100%;
+
+  .category-card {
+    position: relative;
+    text-align: center;
+    height: 260px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-top: solid 1px white;
+    border-right: solid 1px white;
+
+    @media all and (max-width: $breakpoint-mobile) {
+      height: 50vw;
+      border-top: none;
+      border-right: none;
+      border-bottom: solid 1px white;
+    }
+
+    .category {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 35px;
+      color: $yellow;
+      font-size: 1.125rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      opacity: 1;
+      transition: $transition;
+      @media all and (max-width: $breakpoint-mobile) {
+        font-size: .75rem;
+        bottom: 25px;
+      }
+    }
+
+    .overlay {
+      opacity: 0;
+      transition: $transition;
+      background: $purple;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      padding: 0 125px 0 100px;
+      @media all and (max-width: $breakpoint-mobile) {
+        padding: 25px;
+      }
+
+      .subtitle {
+        color: $yellow;
+        margin-bottom: 1rem;
+      }
+
+      .title {
+        color: white;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  a,
+  a:visited,
+  a:active {
+    color: white;
+
+    &:hover {
+      color: white;
+
+      .overlay {
+        opacity: 1;
+      }
+
+      .category {
+        opacity: 0;
+      }
+    }
+  }
+
+  &.square {
+    .category-card {
+      height: 33vw;
+      @media all and (max-width: $breakpoint-tablet) {
+        height: 50vw;
+      }
+      @media all and (max-width: $breakpoint-mobile) {
+        height: 100vw;
+      }
+    }
+  }
+
+  &.two {
+    .category-card {
+      height: 25vw;
+      @media all and (max-width: $breakpoint-mobile) {
+        height: 50vw;
+      }
+    }
+
+    &.square {
+      .category-card {
+        height: 50vw;
+      }
+    }
+  }
+
+}

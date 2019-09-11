@@ -1,0 +1,29 @@
+$breakpoint-tablet: 1240px;
+$breakpoint-mobile: 768px;
+
+//Fonts
+$primary-font-family: 'Beatrice', sans-serif;
+$secondary-font-family: 'Beatrice Display', sans-serif;
+$semibold-font-family: 'Beatrice Semibold', sans-serif;
+
+//Colors
+$background-color: #fff;
+$black: #000000;
+$light-gray: #f8f8f6;
+$medium-gray: #e9e7e1;
+$dark-gray: #363636;
+$yellow: #fff59b;
+$brown: #b8af8b;
+$purple: #411e5f;
+$blue: #1859b4;
+$orange: #ff8f2a;
+
+//Links
+$link-color: $blue;
+$link-color-hover: black;
+$link-decoration: none;
+$link-decoration-hover: none;
+
+//Transitions
+$transition: .2s all linear;
+$opacity-on-hover: .8;

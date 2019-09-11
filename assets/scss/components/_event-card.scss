@@ -1,0 +1,107 @@
+@import "../variables";
+
+.event-card {
+  width: 100%;
+  opacity: 1;
+  transition: $transition;
+
+  &.center {
+    text-align: center;
+  }
+
+  &:hover {
+    opacity: $opacity-on-hover;
+    cursor: pointer;
+  }
+
+  a,
+  a:visited,
+  a:active {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+  }
+
+  .image {
+    position: relative;
+
+    img {
+      top: 0;
+      left: 0;
+    }
+
+    ul {
+      list-style: none;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+
+      li {
+        background: $blue;
+        padding: 8px 12px 4px;
+        float: left;
+        margin: 0 10px 10px 0;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: .1rem;
+
+        .month {
+          font-size: .6875rem;
+        }
+
+        .day {
+          font-size: 1.25rem;
+        }
+      }
+
+    }
+  }
+
+  .title {
+    background: $medium-gray;
+    padding: 20px;
+
+    p {
+
+      &.category {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      &.small-text {
+        font-size: .6875rem;
+        line-height: 1rem;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+
+      &.date-range {
+        margin-bottom: 1rem;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+    }
+  }
+
+  .buy-tickets {
+    background-color: $light-gray;
+    text-align: center;
+    height: 40px;
+
+    p {
+      line-height: 40px;
+      font-size: .75rem;
+      text-transform: uppercase;
+    }
+  }
+
+}

@@ -1,0 +1,46 @@
+@import "../variables";
+@import "../typography";
+
+// this file overrides & extends built in carousel styles
+.hero-carousel {
+  .VueCarousel {
+    .VueCarousel-pagination {
+      position: absolute;
+      bottom: 2rem;
+    }
+
+    .VueCarousel-dot {
+      background-color: white !important;
+
+      &.VueCarousel-dot--active {
+        background-color: $blue !important;
+      }
+    }
+  }
+}
+
+.card-carousel {
+  .VueCarousel {
+
+    .VueCarousel-pagination {
+      position: relative;
+    }
+
+    .VueCarousel-dot {
+      background-color: $medium-gray !important;
+
+      &.VueCarousel-dot--active {
+        background-color: $blue !important;
+      }
+    }
+
+    .news-card {
+      .card {
+        padding: 0 1rem;
+        @media all and (max-width: $breakpoint-mobile) {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

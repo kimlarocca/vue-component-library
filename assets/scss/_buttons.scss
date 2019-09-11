@@ -1,0 +1,117 @@
+@import 'variables';
+
+.button,
+.button:visited,
+.button:active {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font-family: $primary-font-family;
+  font-weight: normal;
+  padding: 20px 25px;
+  background-color: white;
+  color: black;
+  font-size: .875rem;
+  text-transform: uppercase;
+  border: 2px solid white;
+  transition: $transition;
+  opacity: 1;
+  text-decoration: none;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    padding: .75rem;
+    font-size: .75rem;
+    letter-spacing: .05rem;
+    width: 100%;
+  }
+
+  &:hover {
+    color: white;
+    background-color: transparent;
+  }
+
+  &.ghost,
+  &.ghost-black {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: .75rem;
+
+    @media all and (max-width: $breakpoint-mobile) {
+      font-size: .625rem;
+      font-weight: 700;
+    }
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  &.ghost-black {
+    border: 1px solid black;
+    color: black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &.gray {
+    background-color: $light-gray;
+    border: none;
+    font-size: .75rem;
+    padding: 15px 100px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 5px 0 rgba(234, 233, 233, 1);
+
+    &:hover {
+      opacity: $opacity-on-hover;
+      color: black;
+    }
+  }
+
+  &.light-gray {
+    background-color: #f6fafb;
+    border: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .02);
+    color: black;
+
+    &:hover {
+      opacity: $opacity-on-hover;
+    }
+  }
+
+  &.blue {
+    border: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    background: #1c70e3; // fallback for old browsers
+    background: linear-gradient(to bottom, #1c70e3 0%, #1859b4 100%);
+
+    @media all and (max-width: $breakpoint-mobile) {
+      font-size: .75rem;
+    }
+
+    &:hover {
+      opacity: $opacity-on-hover;
+    }
+  }
+
+  &.purple {
+    background: $purple;
+    color: white;
+    border: 2px solid $purple;
+    font-weight: 700;
+
+    &:hover {
+      background-color: transparent;
+      color: $purple;
+    }
+  }
+}

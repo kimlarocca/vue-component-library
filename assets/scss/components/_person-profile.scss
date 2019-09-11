@@ -1,0 +1,99 @@
+@import "../variables";
+
+.person-profile {
+  color: white;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .quote {
+    padding: 100px 85px;
+    background-color: $blue;
+
+    @media all and (max-width: $breakpoint-mobile) {
+      padding: 50px;
+    }
+
+    &.purple {
+      background-color: $purple;
+    }
+
+    .quote-text {
+      position: relative;
+      margin-bottom: 1rem;
+
+      &:before {
+        position: absolute;
+        font-size: 2.5rem;
+        content: '“';
+        top: 10px;
+        left: -25px;
+        color: white;
+      }
+    }
+
+    .quotation-mark {
+      position: absolute;
+      font-size: 2.5rem;
+      bottom: 5px;
+      margin-left: 5px;
+    }
+  }
+
+  .cta {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media all and (max-width: $breakpoint-mobile) {
+      position: initial;
+    }
+
+    a,
+    a:visited,
+    a:active {
+      color: white;
+      opacity: 1;
+      transition: $transition;
+
+      &:hover {
+        color: white;
+        opacity: $opacity-on-hover;
+      }
+    }
+
+    .content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px 35px;
+
+      @media all and (max-width: $breakpoint-mobile) {
+        position: initial;
+        padding: 50px;
+      }
+
+      .play-button,
+      .category {
+        float: left;
+        height: 46px;
+
+        p {
+          line-height: 46px;
+          font-weight: 700;
+        }
+      }
+
+      .play-button {
+        margin-right: 10px;
+      }
+
+      .description {
+        clear: both;
+        padding-top: 10px;
+      }
+    }
+  }
+}

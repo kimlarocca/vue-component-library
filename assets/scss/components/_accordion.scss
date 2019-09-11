@@ -1,0 +1,170 @@
+@import "../variables";
+@import "../typography";
+
+// accordion styles are defined inside the accordion components
+// this file overrides & extends those styles
+
+.accordion {
+
+  .accordion-item {
+
+    border-bottom: 1px solid $medium-gray;
+
+    &:first-of-type {
+      border-top: 1px solid $medium-gray;
+    }
+
+    .accordion-header {
+      padding: 20px 0;
+      @extend .subhead6;
+
+      h1,
+      h2,
+      h3,
+      .like-h1,
+      .like-h2,
+      .like-h3,
+      p {
+        margin: 0;
+      }
+
+      .accordion-icon {
+
+        &:after {
+          content: '' !important;
+          background: url("/assets/images/accordion-icon.png") no-repeat;
+          width: 22px;
+          height: 13px;
+        }
+      }
+
+    }
+
+    .accordion-header-active {
+      .accordion-icon {
+        &:after {
+          content: '' !important;
+          transform: rotate(180deg);
+        }
+      }
+    }
+
+    .accordion-content {
+      padding-bottom: 20px;
+
+      p {
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      .cell {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .cell {
+    .accordion-item {
+      border-bottom: none;
+    }
+
+    &:last-of-type {
+      border-bottom: 1px solid $medium-gray;
+    }
+
+  }
+
+  &.no-border {
+
+    .accordion-item {
+      border: none;
+
+      &:first-of-type {
+        border: none;
+      }
+    }
+
+    .cell {
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+    }
+
+  }
+
+  &.no-border-on-desktop {
+    @media all and (min-width: $breakpoint-tablet+1) {
+
+      .accordion-item {
+        border: none;
+
+        &:first-of-type {
+          border: none;
+        }
+      }
+
+      .cell {
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+      }
+    }
+  }
+
+  &.event-blinds {
+    @extend .no-border;
+
+    .accordion-item {
+      background: $light-gray;
+      margin-bottom: 20px;
+
+      .accordion-header {
+        padding: 0;
+        align-items: flex-start;
+
+        .accordion-icon {
+          margin: 1.5rem .75rem 0 0;
+
+          &:after {
+            right: 0;
+            top: -.5rem;
+            content: "Expand Details +" !important;
+            font-size: .6875rem;
+            letter-spacing: .01px;
+            color: $purple;
+            text-transform: none;
+            background: none;
+            width: 130px;
+            text-align: right;
+          }
+        }
+      }
+
+      .accordion-header-active {
+        .accordion-icon {
+          &:after {
+            content: "Close Details -" !important;
+            transform: none;
+          }
+        }
+      }
+    }
+
+    .event-card {
+
+      li {
+        padding: 4px 12px 12px;
+
+        .month {
+          line-height: 1.5rem;
+        }
+      }
+    }
+
+  }
+}

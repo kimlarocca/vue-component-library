@@ -1,0 +1,38 @@
+@import "../variables";
+
+.social-links {
+
+  $font-size: 18px;
+
+  li {
+    display: inline-block;
+    margin-right: .5rem;
+
+    a,
+    a:visited,
+    a:active {
+      color: $black;
+      height: $font-size * 1.4;
+      width: $font-size * 1.4;
+      display: inline-block;
+      font-size: $font-size;
+      text-align: center;
+      opacity: 1;
+      transition: $transition;
+
+      &:hover {
+        opacity: $opacity-on-hover;
+      }
+
+      &.no-background {
+        height: $font-size;
+        width: $font-size;
+      }
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+}
