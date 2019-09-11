@@ -69,5 +69,8 @@ export default {
         }
       }
     }
+  },
+  router: {
+    base: '/nuxt-starter-site/dist/'
   }
 }
