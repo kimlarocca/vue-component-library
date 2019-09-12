@@ -1,5 +1,11 @@
 export default {
+
+  env: {
+    baseUrl: 'http://fesandbox.tihuma.net/nuxt-starter-site/dist/'
+  },
+
   mode: 'spa',
+
   /*
   ** Headers of the page
   */
@@ -69,8 +75,5 @@ export default {
         }
       }
     }
-  },
-  router: {
-    base: '/nuxt-starter-site/dist/'
   }
 }
