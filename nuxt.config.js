@@ -5,7 +5,7 @@ export default {
     base: '/nuxt-starter-site/dist/'
   },
 
-  mode: 'spa',
+  mode: 'universal',
 
   /*
   ** Headers of the page
