@@ -1,9 +1,5 @@
 export default {
 
-  env: {
-    baseUrl: 'http://fesandbox.tihuma.net/nuxt-starter-site/dist/'
-  },
-
   mode: 'spa',
 
   /*
