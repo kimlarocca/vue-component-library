@@ -1,5 +1,9 @@
 export default {
 
+  router: {
+    base: '/nuxt-starter-site/dist/'
+  },
+
   mode: 'spa',
 
   /*
@@ -25,7 +29,7 @@ export default {
   ** Global CSS
   */
   css: [
-    // { lang: 'scss', src: '~/assets/scss/main.scss' }
+    { lang: 'scss', src: '~/assets/scss/main.scss' }
   ],
   /*
   ** Plugins to load before mounting the App
