@@ -1,5 +1,6 @@
 export default {
 
+  /* delete this section if your SPA is running in the server root directory */
   router: {
     base: '/nuxt-starter-site/dist/'
   },
@@ -17,8 +18,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /*

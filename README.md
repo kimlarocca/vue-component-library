@@ -19,4 +19,6 @@ $ npm run start
 $ npm run generate
 ```
 
+Be sure to update the router base variable in nuxt.config.js!
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
