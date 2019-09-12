@@ -34,6 +34,44 @@
   font-family: 'Font Awesome 5 Brands';
 }
 
+@font-face {
+  font-family: 'Beatrice';
+  src: url('~assets/fonts/Beatrice-Regular.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/Beatrice-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/Beatrice-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~assets/fonts/Beatrice-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('~assets/fonts/Beatrice-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beatrice';
+  src: url('~assets/fonts/Beatrice-Semibold.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/Beatrice-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('~assets/fonts/Beatrice-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('~assets/fonts/Beatrice-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('~assets/fonts/Beatrice-Semibold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beatrice Display';
+  src: url('~assets/fonts/BeatriceDisplay-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('~assets/fonts/BeatriceDisplay-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beatrice Display';
+  src: url('~assets/fonts/BeatriceDisplay-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+  url('~assets/fonts/BeatriceDisplay-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+
 h1,
 .like-h1 {
   font-size: 4.5rem;

@@ -31,7 +31,7 @@
     <div class="grid-x grid-margin-x grid-margin-y">
       <div :key="index" v-for="index in eventsToShow" class="cell large-3 medium-6 small-12">
         <event-card
-          image="~/assets/upcoming-shows-card-image.png"
+          image="images/upcoming-shows-card-image.png"
           link="http://www.google.com"
           cta="learn more"
           category="performance"
@@ -111,7 +111,7 @@
     <div class="grid-x grid-margin-x grid-margin-y">
       <div class="cell large-3 medium-6 small-12">
         <event-card
-          image="assets/images/upcoming-shows-card-image.png"
+          image="images/upcoming-shows-card-image.png"
           link="http://www.google.com"
           :upcomingDates="[{month:'Feb',day:'27'},{month:'Feb',day:'28'},{month:'Mar',day:'1'}]"
         >
@@ -137,3 +137,4 @@
     }
   }
 </script>
+
