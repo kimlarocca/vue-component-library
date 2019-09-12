@@ -19,6 +19,10 @@ $ npm run start
 $ npm run generate
 ```
 
-Be sure to update the router base variable in nuxt.config.js!
+## Site Setup
+
+Be sure to update the router base variable in nuxt.config.js
+
+Register global components in the plugins/global.js file
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

@@ -14,7 +14,7 @@
 
 .fa,
 .fas {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Free', serif;
   font-weight: 900;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .fab {
-  font-family: 'Font Awesome 5 Brands';
+  font-family: 'Font Awesome 5 Brands', serif;
 }
 
 @font-face {
@@ -107,6 +107,38 @@ h3,
   font-weight: normal;
 }
 
+h4,
+.like-h4 {
+  font-size: 1.4375rem;
+  line-height: 2.4375rem;
+  text-transform: none;
+  font-weight: normal;
+  font-family: $primary-font-family;
+
+  &.strong {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+h5,
+.like-h5 {
+  text-transform: none;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-family: $primary-font-family;
+}
+
+h6,
+.like-h6 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-family: $primary-font-family;
+  font-weight: 600;
+}
+
 p {
   font-size: .9375rem;
   line-height: 1.25rem;
@@ -115,116 +147,6 @@ p {
   font-family: $primary-font-family;
 }
 
-.subhead1 {
-  font-size: 2.25rem;
-  line-height: 2.25rem;
-  text-transform: uppercase;
-  font-family: $primary-font-family;
-  font-weight: normal;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: 1.375rem;
-    line-height: 1.375rem;
-  }
-  &.no-transform {
-    text-transform: none;
-  }
-}
-
-.subhead2 {
-  font-size: 2rem;
-  line-height: 2rem;
-  text-transform: uppercase;
-  font-family: $primary-font-family;
-  font-weight: normal;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: 1rem;
-    line-height: 1.25rem;
-  }
-  &.no-transform {
-    text-transform: none;
-  }
-}
-
-.subhead3 {
-  font-size: 1.5rem;
-  line-height: 1.875rem;
-  text-transform: none;
-  font-family: $primary-font-family;
-  font-weight: normal;
-}
-
-.subhead4 {
-  font-size: 1.375rem;
-  line-height: 2rem;
-  text-transform: none;
-  font-family: $primary-font-family;
-  font-weight: normal;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: .875rem;
-    line-height: 1.25rem;
-  }
-}
-
-.subhead5 {
-  font-size: .9rem;
-  line-height: .9rem;
-  letter-spacing: .1rem;
-  font-family: $primary-font-family;
-  text-transform: uppercase;
-  font-weight: normal;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: .8333rem;
-    line-height: 1.25rem;
-  }
-  &.no-transform {
-    text-transform: none;
-  }
-}
-
-.subhead6 {
-  font-size: .75rem;
-  line-height: .75rem;
-  letter-spacing: .1rem;
-  font-family: $primary-font-family;
-  text-transform: uppercase;
-  font-weight: normal;
-  &.no-transform {
-    text-transform: none;
-  }
-}
-
-.body-text1 {
-  font-size: 1.375rem;
-  line-height: 1.625rem;
-  text-transform: none;
-  font-family: $primary-font-family;
-}
-
-.body-text2 {
-  font-size: 1.25rem;
-  line-height: 1.875rem;
-  text-transform: none;
-  font-family: $primary-font-family;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: 1rem;
-    line-height: 1.25rem;
-  }
-}
-
-.body-text3 {
-  font-size: .98375rem;
-  line-height: 1.4375rem;
-  text-transform: none;
-  font-family: $primary-font-family;
-  @media all and (max-width: $breakpoint-mobile) {
-    font-size: .75rem;
-    line-height: 1rem;
-  }
-}
-
-.body-text4 {
-  font-size: .6875rem;
-  line-height: 1rem;
-  text-transform: none;
-  font-family: $primary-font-family;
+strong {
+  font-weight: 600;
 }

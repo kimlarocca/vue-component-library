@@ -1,3 +1,4 @@
+@import "variables";
 @import '~foundation-sites/scss/util/math';
 @import '~foundation-sites/scss/util/unit';
 @import '~foundation-sites/scss/util/value';
@@ -9,7 +10,7 @@
 @import '~foundation-sites/scss/util/mixins';
 @import '~foundation-sites/scss/util/typography';
 
-$primary-color: #1859b4;
+$primary-color: $primary;
 $success-color: green;
 $warning-color: red;
 $alert-color: red;
@@ -23,17 +24,17 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: $primary,
+  secondary: $secondary,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
 );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$light-gray: $light-gray;
+$medium-gray: $medium-gray;
+$dark-gray: $dark-gray;
+$black: $black;
+$white: $white;
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
@@ -278,7 +279,7 @@ $callout-font-color-alt: $body-background;
 $callout-radius: $global-radius;
 $callout-link-tint: 30%;
 
-// 14. Card
+// 14. Card.vue.vue
 // --------
 
 $card-background: $white;
@@ -472,7 +473,7 @@ $maincontent-class: 'off-canvas-content';
 // ---------
 
 $orbit-bullet-background: white;
-$orbit-bullet-background-active: $blue;
+$orbit-bullet-background-active: $primary;
 $orbit-bullet-diameter: .65rem;
 $orbit-bullet-margin: 0.25rem;
 $orbit-bullet-margin-top: -3rem;

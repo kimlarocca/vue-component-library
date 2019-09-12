@@ -1,0 +1,47 @@
+@import "../variables";
+
+.card {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: $light-gray;
+  transition: $transition;
+  position: relative;
+
+  &:hover {
+    opacity: $opacity-on-hover;
+    cursor: pointer;
+  }
+
+  .header {
+    padding: 20px;
+    background: $medium-gray;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  img {
+    top: 0;
+    left: 0;
+  }
+
+  .content {
+    padding: 20px;
+
+    .subtitle {
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .title {
+      margin-bottom: 1rem;
+    }
+
+    .learn-more {
+      font-weight: 700;
+      color: $link-color;
+    }
+  }
+
+}
