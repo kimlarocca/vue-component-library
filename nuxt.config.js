@@ -63,6 +63,8 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    extractCSS: true,
+
     extend (config, ctx) {
       for (const rule of config.module.rules) {
         if (rule.use) {
