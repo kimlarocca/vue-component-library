@@ -63,19 +63,6 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extractCSS: true,
-
-    extend (config, ctx) {
-      for (const rule of config.module.rules) {
-        if (rule.use) {
-          for (const use of rule.use) {
-            if (use.loader === 'sass-loader') {
-              use.options = use.options || {}
-              use.options.includePaths = ['~foundation-sites/scss']
-            }
-          }
-        }
-      }
-    }
+    extractCSS: true
   }
 }

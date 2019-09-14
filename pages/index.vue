@@ -12,7 +12,7 @@
             <div class="subhead6">pattern library <i class="fas fa-heart"></i></div>
           </div>
           <div class="cell auto large-text-right medium-text-right">
-            <div class="subhead6"><a href="#layouts">layouts</a> | <a href="#components">components</a></div>
+            <div class="subhead6"><a href="#components">components</a> | <a href="#layouts">layouts</a></div>
           </div>
         </div>
       </div>
@@ -66,17 +66,19 @@
       <h2 class="margin-bottom-1" id="components">components</h2>
 
       <p class="subhead5 margin-bottom-1">
-        <nuxt-link to="Card">Card</nuxt-link>
-      </p>
-      <p class="subhead5 margin-bottom-1">
-        <nuxt-link to="SocialLinks">Social Links</nuxt-link>
-      </p>
-
-      <p class="subhead5 margin-bottom-1">
         <nuxt-link to="Accordions">Accordions</nuxt-link>
       </p>
       <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Breadcrumbs">Breadcrumbs</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Card">Card</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
         <nuxt-link to="Carousel">Carousels</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="SocialLinks">Social Links</nuxt-link>
       </p>
 
       <div class="section-padding-50"></div>
@@ -94,6 +96,7 @@
 
 <style scoped lang="scss">
   @import "../assets/scss/variables";
+
   .style-guide {
     background: white;
     padding: 30px 0 50px;

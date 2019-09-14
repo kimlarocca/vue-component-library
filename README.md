@@ -21,6 +21,8 @@ $ npm run generate
 
 ## Site Setup
 
+Trouble setting up the site? Try deleting the node_modules folder then run npm install again
+
 Be sure to update the router base variable in nuxt.config.js
 
 Register global components in the plugins/global.js file
