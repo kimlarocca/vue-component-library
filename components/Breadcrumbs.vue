@@ -18,15 +18,56 @@
 </template>
 
 <script>
-    export default {
-        name: 'Breadcrumbs',
-        props: {
-            crumbs: Array
-        },
-        methods: {
-            hasLink (crumb) {
-                return !!crumb.link
-            }
-        }
+  export default {
+    name: 'Breadcrumbs',
+    props: {
+      crumbs: Array
+    },
+    methods: {
+      hasLink (crumb) {
+        return !!crumb.link
+      }
     }
+  }
 </script>
+
+<style scoped lang="scss">
+
+  $color: #606060;
+  $link-color: #0095da;
+  $margin: 5px;
+  $separator: '/';
+
+  .crumbs {
+
+    list-style: none;
+
+    a,
+    a:visited,
+    a:active {
+      color: $link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $color;
+      }
+    }
+
+    li {
+      display: inline;
+      margin-right: $margin;
+      color: $color;
+
+      &:after {
+        margin-left: $margin;
+        content: $separator;
+      }
+
+      &:last-of-type {
+        &:after {
+          content: '';
+        }
+      }
+    }
+  }
+</style>
