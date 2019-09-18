@@ -103,7 +103,7 @@
         }
       }
     },
-    mounted () {
+    created () {
       this.mobileOnly = false
 
       // open the first item in each accordion
@@ -111,8 +111,6 @@
 
       // open all accordions on desktop
       // open only the first accordion on mobile
-      window.addEventListener('resize', this.handleResize)
-      this.handleResize()
       if (this.Accordion.mobileOnly) {
         this.active = true
         this.mobileOnly = true
@@ -123,6 +121,10 @@
           this.openAll()
         }
       }
+    },
+    mounted () {
+      window.addEventListener('resize', this.handleResize)
+      this.handleResize()
 
       // close all accordions if closeAll prop is true
       if (this.Accordion.closeAll) {
@@ -142,8 +144,6 @@
 
 <style lang="scss" scoped>
 
-  @import "../assets/scss/variables";
-
   // for the mobileOnly option - set this breakpoint that transforms content into accordions on mobile only
   $breakpoint-mobile: 1240px;
 
@@ -160,13 +160,11 @@
         position: relative;
 
         &:after {
-          content: "\f105" !important;
-          font-family: $font-awesome;
-          transition: $transition;
           position: absolute;
           right: 0;
-          top: -1.25rem;
-          font-size: 1.75rem;
+          top: -.5rem;
+          content: "\002B";
+          font-size: 2rem;
         }
       }
 
@@ -189,9 +187,9 @@
 
     .accordion-header-active {
       .accordion-icon {
-        transform: rotate(90deg);
-        top: .5rem;
-        right: .5rem;
+        &:after {
+          content: "\2212";
+        }
       }
     }
 
@@ -206,15 +204,6 @@
     .accordion-leave-to {
       height: 0 !important;
       opacity: 0;
-    }
-  }
-
-  .mobile-only {
-    .accordion-icon {
-      display: none;
-      @media all and (max-width: $breakpoint-mobile) {
-        display: block;
-      }
     }
   }
 
