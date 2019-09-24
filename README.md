@@ -21,10 +21,12 @@ $ npm run generate
 
 ## Site Setup
 
-Trouble setting up the site? Try deleting the node_modules folder then run npm install again
+Trouble setting up the site? Try deleting the node_modules folder then run npm install again.
 
-Be sure to update the router base variable in nuxt.config.js
+Be sure to update the router base variable in nuxt.config.js.
 
-Register global components in the plugins/global.js file
+Components in the components folder are automatically globally registered (see plugins/global.js). This may not be ideal for your SPA. See https://github.com/chrisvfritz/vue-enterprise-boilerplate/blob/master/src/components/_globals.js for the code on how to auto register only base components. 
+
+Routes for all pages in the pages folder are automatically created.
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
