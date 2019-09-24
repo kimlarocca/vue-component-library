@@ -1,0 +1,92 @@
+{
+  "services": [
+    {
+      "url": "#",
+      "name": "Link 1"
+    },
+    {
+      "url": "#",
+      "name": "Link 2"
+    },
+    {
+      "url": "#",
+      "name": "Link 3"
+    },
+    {
+      "url": "#",
+      "name": "Link 4"
+    },
+    {
+      "url": "#",
+      "name": "Link 5"
+    }
+  ],
+  "why": [
+    {
+      "url": "#",
+      "name": "Link 1"
+    },
+    {
+      "url": "#",
+      "name": "Link 2"
+    }
+  ],
+  "about": [
+    {
+      "url": "#",
+      "name": "Link 1"
+    },
+    {
+      "url": "#",
+      "name": "Link 2"
+    },
+    {
+      "url": "#",
+      "name": "Link 3"
+    },
+    {
+      "url": "#",
+      "name": "Link 4"
+    },
+    {
+      "url": "#",
+      "name": "Link 5"
+    },
+    {
+      "url": "#",
+      "name": "Link 6"
+    }
+  ],
+  "resources": [
+    {
+      "url": "#",
+      "name": "Link 1"
+    },
+    {
+      "url": "#",
+      "name": "Link 2"
+    },
+    {
+      "url": "#",
+      "name": "Link 3"
+    },
+    {
+      "url": "#",
+      "name": "Link 4"
+    }
+  ],
+  "footerLinks": [
+    {
+      "url": "#",
+      "name": "Privacy Policy"
+    },
+    {
+      "url": "#",
+      "name": "Terms & Conditions"
+    },
+    {
+      "url": "#",
+      "name": "Sitemap"
+    }
+  ]
+}

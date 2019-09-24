@@ -1,0 +1,69 @@
+@import "../variables";
+
+.callout {
+  padding: 50px 2rem;
+
+  .content {
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+
+    .description {
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      margin: 0 1rem 0 0;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      @media all and (max-width: $breakpoint-mobile) {
+        width: 100%;
+        margin: 0 0 20px 0;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &.gray {
+    @extend .bg-light-gray;
+  }
+
+  &.dark {
+    @extend .bg-dark-gray;
+    color: $white;
+  }
+
+  &.primary {
+    @extend .bg-primary;
+    color: $white;
+
+    .button {
+      @extend .ghost-white;
+    }
+  }
+
+  &.secondary {
+    @extend .bg-secondary;
+    color: $white;
+
+    .button {
+      @extend .ghost-white;
+    }
+  }
+
+  &.left {
+    .content {
+      text-align: left;
+    }
+
+    .button {
+      margin: 0 auto 0 0;
+    }
+  }
+}

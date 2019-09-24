@@ -1,0 +1,57 @@
+.pagination {
+
+  $height: 25px;
+  display: flex;
+  justify-content: center;
+
+  ul,
+  .previous,
+  .next {
+    height: $height;
+    display: inline;
+    margin: 0 .25rem;
+    line-height: $height;
+  }
+
+  .previous,
+  .next {
+    position: relative;
+    cursor: pointer;
+    opacity: 1;
+    transition: $transition;
+
+    &:hover {
+      opacity: $opacity-on-hover;
+    }
+
+    i {
+      font-size: $height;
+      padding-bottom: .5rem;
+    }
+  }
+
+  a,
+  a:visited,
+  a:active {
+    color: $primary;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+
+    &:hover {
+      color: $black;
+    }
+
+    &.current {
+      font-weight: 700;
+    }
+  }
+
+  ul {
+    li {
+      display: inline;
+      margin: 0 .25rem;
+    }
+  }
+
+}

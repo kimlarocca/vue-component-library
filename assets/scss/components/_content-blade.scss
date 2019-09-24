@@ -1,0 +1,67 @@
+@import "../variables";
+
+.content-blade {
+
+  padding: 3rem 0;
+
+  .content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin-bottom: 1rem;
+    }
+
+    a,
+    a:visited,
+    a:active {
+      color: $secondary;
+
+      &:hover {
+        color: $black;
+      }
+
+      &.button {
+        color: $white;
+      }
+    }
+
+    .button {
+      margin-top: 1rem;
+    }
+  }
+
+  &.gray {
+    @extend .bg-light-gray;
+  }
+
+  &.dark {
+    @extend .bg-dark-gray;
+    color: $white;
+
+    .button {
+      @extend .ghost
+    }
+  }
+
+  &.primary {
+    @extend .bg-primary;
+    color: $white;
+
+    .button {
+      @extend .ghost-white;
+    }
+  }
+
+  &.secondary {
+    @extend .bg-secondary;
+    color: $white;
+
+    .button {
+      @extend .ghost-white;
+    }
+  }
+}

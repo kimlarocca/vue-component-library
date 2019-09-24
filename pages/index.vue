@@ -32,6 +32,7 @@
           laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
           esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.</p>
+        <p class="small-body-text">.small-body-text use this for smaller text</p>
         <p><a>This is an inline link</a></p>
         <p><a class="caret-right">.caret-right</a></p>
         <p><a class="caret-down">.caret-down</a></p>
@@ -55,9 +56,12 @@
 
       <section class="section-border">
         <p class="subhead5">Buttons</p>
+        <p><a class="button">.button</a></p>
         <div class="bg-dark-gray padding-2">
-          <p><a class="button">.button</a></p>
           <p><a class="button ghost">.button .ghost</a></p>
+          <p><a class="button ghost-white">.button .ghost-white</a></p>
+          <p><a class="button ghost-primary">.button .ghost-primary</a></p>
+          <p><a class="button ghost-secondary">.button .ghost-secondary</a></p>
         </div>
       </section>
 
@@ -72,13 +76,43 @@
         <nuxt-link to="Breadcrumbs">Breadcrumbs</nuxt-link>
       </p>
       <p class="subhead5 margin-bottom-1">
-        <nuxt-link to="Card">Card</nuxt-link>
+        <nuxt-link to="Callout">Callouts</nuxt-link>
       </p>
       <p class="subhead5 margin-bottom-1">
-        <nuxt-link to="Carousel">Carousels</nuxt-link>
+        <nuxt-link to="Card">Cards</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="ContentBlade">Content Blades</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="CtaCard">CTA Cards</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Carousel">Carousels (Images, Heroes, Cards, Featured X)</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="footer">Footer</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Hero">Heroes</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="ImageWithCaption">Images With Captions</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="MediaBlock">Media Blocks</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Pagination">Pagination</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="Reviews">Reviews / Testimonials</nuxt-link>
       </p>
       <p class="subhead5 margin-bottom-1">
         <nuxt-link to="SocialLinks">Social Links</nuxt-link>
+      </p>
+      <p class="subhead5 margin-bottom-1">
+        <nuxt-link to="TeamMemberCard">Team Member Cards</nuxt-link>
       </p>
 
       <div class="section-padding-50"></div>

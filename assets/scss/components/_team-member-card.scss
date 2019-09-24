@@ -1,0 +1,10 @@
+@import "../variables";
+
+.team-member-card {
+  width: 100%;
+
+  .name {
+    font-weight: 700;
+    @extend h4;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "reviews": [
+    {
+      "name": "Reviewer #1",
+      "reviewDate": "2/14/2019",
+      "byline": "byline goes here",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam!"
+    },
+    {
+      "name": "Reviewer #2",
+      "reviewDate": "2/14/2019",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto blanditiis ea impedit ipsum nam odit reiciendis tempore voluptate? Blanditiis consequuntur ea, hic in iusto quaerat quas. Error, provident!"
+    },
+    {
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto blanditiis ea impedit ipsum nam odit reiciendis tempore voluptate? Blanditiis consequuntur ea, hic in iusto quaerat quas. Error, provident!"
+    },
+    {
+      "name": "Reviewer #4",
+      "byline": "president, google.com",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquam architecto blanditiis ea impedit ipsum nam odit reiciendis tempore voluptate? Blanditiis consequuntur ea, hic in iusto quaerat quas. Error, provident!"
+    }
+  ]
+}

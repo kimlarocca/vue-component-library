@@ -3,7 +3,7 @@
 
     <div class="container margin-vertical-2">
 
-      <h1 class="margin-bottom-1">news card component</h1>
+      <h1 class="margin-bottom-1">card component</h1>
       <p>
         <nuxt-link to="/">&lt; back to style guide</nuxt-link>
       </p>
@@ -13,6 +13,7 @@
       <p><strong>PROPS:</strong></p>
       <ul>
         <li>image (optional)</li>
+        <li>video - iframe url for youtube or vimeo (optional)</li>
         <li>altText (optional, but highly recommend for SEO)</li>
         <li>header (optional)</li>
         <li>subtitle (optional)</li>
@@ -27,7 +28,7 @@
         <div class="cell large-4 medium-6 small-12">
           <card
             header="Card Header"
-            image="https://placekitten.com/800/450"
+            image="https://picsum.photos/600/400?grayscale"
             altText="alternative text"
             subtitle="subtitle"
             title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
@@ -36,8 +37,7 @@
         </div>
         <div class="cell large-4 medium-6 small-12">
           <card
-            image="https://placekitten.com/800/550"
-            altText="alternative text"
+            video="https://player.vimeo.com/video/90283590"
             link="http://www.google.com"
             hasTextLink="true"
             subtitle="subtitle"

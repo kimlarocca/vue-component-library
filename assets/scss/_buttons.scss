@@ -1,7 +1,7 @@
 @import 'variables';
 
 $color: white;
-$background: $secondary;
+$background: $primary;
 
 button,
 .button,
@@ -18,7 +18,7 @@ button,
   font-size: .875rem;
   line-height: 1.25rem;
   text-transform: uppercase;
-  border: 2px solid $secondary;
+  border: 2px solid $background;
   transition: $transition;
   opacity: 1;
   text-decoration: none;
@@ -39,11 +39,47 @@ button,
   &.ghost {
     background-color: transparent;
     border: 2px solid $background;
-    color: $color;
+    color: $background;
 
     &:hover {
       background-color: $background;
       color: $color;
+      opacity: 1;
+    }
+  }
+
+  &.ghost-white {
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
+
+    &:hover {
+      background-color: $white;
+      color: $primary;
+      opacity: 1;
+    }
+  }
+
+  &.ghost-primary {
+    background-color: transparent;
+    border: 2px solid $primary;
+    color: $primary;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+      opacity: 1;
+    }
+  }
+
+  &.ghost-secondary {
+    background-color: transparent;
+    border: 2px solid $secondary;
+    color: $secondary;
+
+    &:hover {
+      background-color: $secondary;
+      color: $white;
       opacity: 1;
     }
   }

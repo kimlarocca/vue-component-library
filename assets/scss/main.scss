@@ -1,9 +1,9 @@
 @import "reset";
 @import "variables";
-
 // https://foundation.zurb.com/sites/docs/sass.html
 @import 'settings';
 @import '~foundation-sites/scss/foundation';
+
 @include foundation-global-styles;
 @include foundation-forms;
 @include foundation-text-alignment;
@@ -93,6 +93,9 @@ hr {
   @media all and (max-width: $breakpoint-mobile) {
     margin: 1rem 0;
   }
+  &.white {
+    background: $white;
+  }
 }
 
 .container {
@@ -132,5 +135,12 @@ hr {
       margin-left: 2rem;
       margin-right: 2rem;
     }
+  }
+}
+
+.two-column-content {
+  columns: 300px 2;
+  @media all and (max-width: $breakpoint-mobile) {
+    columns: 300px 1;
   }
 }

@@ -29,6 +29,13 @@
       >
       </breadcrumbs>
 
+      <div class="section-padding-50"></div>
+
+      <breadcrumbs class="bg-light-gray padding-1"
+        :crumbs="[{name: 'Home', link: 'http://www.google.com'},{name: 'Resources', link: 'http://www.yahoo.com'},{name: 'This Article', link: ''}]"
+      >
+      </breadcrumbs>
+
       <div class="section-padding-100"></div>
 
     </div>

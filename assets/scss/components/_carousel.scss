@@ -4,22 +4,56 @@
 
 .VueCarousel {
   .VueCarousel-pagination {
+    position: relative;
+  }
+
+  .VueCarousel-navigation {
     position: absolute;
-    bottom: -3rem;
+    top: 20px;
+    right: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .VueCarousel-navigation-button {
+    position: absolute;
+    font-size: 4rem;
+    height: 4rem;
+    font-family: Times, sans-serif;
+    opacity: 1;
+
+    &:hover {
+      color: $black;
+      opacity: $opacity-on-hover;
+    }
+  }
+
+  .VueCarousel-navigation--disabled {
+    opacity: .5;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+
+  .VueCarousel-navigation-prev {
+    left: -20px;
+  }
+
+  .VueCarousel-navigation-next {
+    right: -20px;
   }
 
   .VueCarousel-dot {
     background-color: $medium-gray !important;
+    padding: 0 !important;
+    margin: 0 4px;
+    width: 12px !important;
+    height: 12px !important;
 
     &.VueCarousel-dot--active {
-      background-color: $primary !important;
+      background-color: $white !important;
+      border: solid 2px $black;
     }
-  }
-}
-
-.card-carousel {
-  .card {
-    width: calc(100% - 2rem);
-    margin: auto;
   }
 }

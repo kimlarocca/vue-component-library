@@ -11,10 +11,15 @@
 
     .accordion-header {
       padding: 10px 0;
-      font-weight: 700;
 
       .accordion-icon {
         &:after {
+          content: "\f105" !important;
+          font-family: $font-awesome;
+          transition: $transition;
+          position: absolute;
+          top: -1.5rem!important;
+          font-size: 1.75rem;
         }
       }
     }
@@ -22,6 +27,7 @@
     .accordion-header-active {
       .accordion-icon {
         &:after {
+          transform: rotate(90deg);
         }
       }
     }

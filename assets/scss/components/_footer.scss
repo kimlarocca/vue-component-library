@@ -1,0 +1,93 @@
+@import "../variables";
+
+footer {
+  @extend .bg-light-gray;
+  padding: 65px 0 5px;
+
+  a,
+  a:visited,
+  a:active {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  h6 {
+    margin: 0 0 1.5rem;
+    color: $black;
+    @media all and (max-width: $breakpoint-tablet) {
+      color: $black;
+      cursor: pointer;
+      margin: 0;
+    }
+  }
+
+  .accordion-item {
+    width: 100%;
+  }
+
+  .menus {
+    @media all and (max-width: $breakpoint-tablet) {
+      margin-top: 3rem;
+      border-top: 1px solid $medium-gray;
+    }
+  }
+
+  ul {
+
+    list-style: none;
+
+    li {
+      margin-bottom: 1rem;
+      display: inline-block;
+      @media all and (max-width: $breakpoint-tablet) {
+        margin-bottom: 0;
+      }
+    }
+
+    &.menu {
+      li {
+        width: 100%;
+        @media all and (max-width: $breakpoint-tablet) {
+          padding: 0 0 1rem 1rem;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    font-size: .8rem;
+    margin: 2rem 0;
+
+    ul {
+      list-style: none;
+
+      li {
+        display: inline;
+        margin-right: .5rem;
+
+        &:after {
+          content: '|';
+          margin-left: .5rem;
+        }
+
+        &:last-of-type,
+        &:first-of-type {
+          margin-right: 0;
+
+          &:after {
+            content: '';
+            margin-left: 0;
+          }
+        }
+
+        &:first-of-type {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+}

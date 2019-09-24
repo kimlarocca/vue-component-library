@@ -1,0 +1,95 @@
+@import "../variables";
+
+$height: 540px;
+$small-height: 320px;
+$padding: 50px;
+$padding-mobile: 1rem;
+
+.hero {
+  display: flex;
+  height: $height;
+  width: 100%;
+  padding: $padding;
+  position: relative;
+
+  @media all and (max-width: $breakpoint-mobile) {
+    height: auto;
+  }
+
+  .desktop-background,
+  .mobile-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    @media all and (max-width: $breakpoint-mobile) {
+      display: none;
+    }
+  }
+
+  .mobile-background {
+    display: none;
+    @media all and (max-width: $breakpoint-mobile) {
+      display: block;
+    }
+  }
+
+  .content {
+    width: 100%;
+    max-width: $breakpoint-tablet;
+    z-index: 10;
+    text-align: center;
+    align-self: center;
+    margin: 0 auto;
+
+    @media all and (max-width: $breakpoint-mobile) {
+      background-size: contain;
+      padding: $padding-mobile;
+    }
+
+    h1,
+    p {
+      color: $white;
+    }
+
+    p {
+      font-weight: 700;
+    }
+
+    h1 {
+      max-width: 75%;
+      margin: 0 auto 1rem;
+      @media all and (max-width: $breakpoint-mobile) {
+        max-width: 100%;
+      }
+    }
+  }
+
+  &.small {
+    height: $small-height;
+
+    .content {
+      align-self: flex-end;
+
+      h1 {
+        max-width: 100%;
+        @extend .like-h2;
+      }
+    }
+  }
+
+  &.left {
+    .content {
+      text-align: left;
+
+      h1 {
+        max-width: 100%;
+        margin: 0 auto 1rem 0;
+      }
+    }
+  }
+}
