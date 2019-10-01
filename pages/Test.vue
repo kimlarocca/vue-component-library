@@ -28,7 +28,7 @@
     },
 
     methods: {
-      async clickMe () {
+      clickMe () {
         console.log('clicked')
       }
     }
