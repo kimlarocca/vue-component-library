@@ -10,7 +10,8 @@
 
       <hr class="margin-vertical-3">
 
-      <p><strong>PROPS:</strong></p>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul class="margin-bottom-3">
         <li>backgroundColor: can be white, gray, dark, primary or secondary (optional, default is white)</li>
         <li>title (optional)</li>

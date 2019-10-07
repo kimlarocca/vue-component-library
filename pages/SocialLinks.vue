@@ -10,7 +10,8 @@
 
       <hr class="margin-vertical-3">
 
-      <p><strong>PROPS:</strong></p>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>icon: the font awesome class name e.g. "fab fa-facebook-f"</li>
         <li>link</li>

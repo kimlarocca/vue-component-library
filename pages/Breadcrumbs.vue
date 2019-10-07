@@ -11,9 +11,9 @@
       <hr class="margin-vertical-3">
 
       <h6 class="margin-bottom-1">Use in your project:</h6>
-      <p class="bg-light-gray padding-1 margin-bottom-1">npm i @bit/kimlarocca.vue.breadcrumbs</p>
-
-      <h6 class="margin-bottom-1">Props:</h6>
+      <p class="bg-light-gray padding-1 margin-bottom-2">npm i @bit/kimlarocca.vue.breadcrumbs</p>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>:crumbs - an array of objects containing the breadcrumb name and link</li>
         <li>&nbsp;&nbsp;&nbsp;[{name, link}] - link is optional</li>

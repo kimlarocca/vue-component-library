@@ -8,7 +8,8 @@
 
             <hr class="margin-vertical-3">
 
-            <p><strong>props:</strong></p>
+            <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+            <p>This component will have fields for:</p>
             <ul>
                 <li>perPage: number of slides to show per page (default is 2)</li>
                 <li>see more options at <a href="https://ssense.github.io/vue-carousel/api/">https://ssense.github.io/vue-carousel/api/</a>

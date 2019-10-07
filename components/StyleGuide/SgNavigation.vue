@@ -6,7 +6,7 @@
                 <div class="cell large-2 medium-3">
                     <img src="https://via.placeholder.com/200x60?text=logo" alt="san francisco symphony logo">
                 </div>
-                <div class="cell large-2 medium-3">
+                <div class="cell large-2 medium-3 hide-for-small-only">
                     <div class="subhead6"><strong>Pattern Library</strong></div>
                 </div>
                 <div class="cell auto large-text-right medium-text-right">

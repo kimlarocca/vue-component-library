@@ -9,7 +9,8 @@
 
       <hr class="margin-vertical-3">
 
-      <h6><strong>PROPS:</strong></h6>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>url - iframe url for the youtube or vimeo embed</li>
       </ul>

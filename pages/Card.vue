@@ -10,7 +10,8 @@
 
       <hr class="margin-vertical-3">
 
-      <p><strong>PROPS:</strong></p>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>image (optional)</li>
         <li>video - iframe url for youtube or vimeo (optional)</li>

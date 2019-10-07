@@ -9,6 +9,7 @@
 
       <hr class="margin-vertical-3">
 
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
       <p><strong>accordion props:</strong></p>
       <ul class="margin-bottom-2">
         <li>allowMultiple - set to true if multiple accordions are allowed to be open at once (optional)</li>

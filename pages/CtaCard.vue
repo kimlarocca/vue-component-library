@@ -10,12 +10,15 @@
 
             <hr class="margin-vertical-3">
 
-            <p><strong>PROPS:</strong></p>
+            <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+            <p>This component will have fields for:</p>
             <ul>
-                <li>title (optional)</li>
-                <li>image</li>
-                <li>altText (optional but recommended)</li>
-                <li>alignment - can be left, center or centered-on-mobile (optional, default is left)</li>
+                <li>Image (optional)</li>
+                <li>Alt Text (optional but recommended if an image is provided)</li>
+                <li>Title (optional)</li>
+                <li>Link - this will link the image and the title (optional)</li>
+                <li>Description (optional)</li>
+                <li>Alignment - can be left, center or centered-on-mobile (optional, the default is left)</li>
             </ul>
 
             <div class="section-padding-50"></div>
@@ -58,6 +61,7 @@
                             title="Title"
                             image="https://picsum.photos/200?grayscale"
                             altText="placeholder image 1"
+                            link="http://www.google.com"
                             alignment="center">
                         <slot>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
@@ -73,6 +77,7 @@
                             title="Title"
                             image="https://picsum.photos/200?grayscale"
                             altText="placeholder image 1"
+                            link="http://www.bing.com"
                             alignment="center">
                         <slot>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
@@ -88,6 +93,7 @@
                             title="Title"
                             image="https://picsum.photos/200?grayscale"
                             altText="placeholder image 1"
+                            link="http://www.yahoo.com"
                             alignment="center">
                         <slot>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi

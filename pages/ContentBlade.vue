@@ -10,7 +10,8 @@
 
             <hr class="margin-vertical-3">
 
-            <p><strong>PROPS:</strong></p>
+            <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+            <p>This component will have fields for:</p>
             <ul class="margin-bottom-2">
                 <li>backgroundColor: can be white, gray, dark, primary or secondary (optional, default is white)</li>
                 <li>title: (optional)</li>
@@ -27,7 +28,7 @@
                 <li>content: (optional)</li>
             </ul>
 
-            <div class="section-padding-50"></div>
+            <hr class="margin-vertical-3">
 
             <p><strong>Default (white) style:</strong></p>
 

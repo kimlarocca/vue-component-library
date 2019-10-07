@@ -10,7 +10,8 @@
 
             <hr class="margin-vertical-3">
 
-            <h6><strong>PROPS:</strong></h6>
+            <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+            <p>This component will have fields for:</p>
             <ul class="margin-bottom-2">
                 <li>layout - can be vertical or horizontal (optional, vertical by default)</li>
                 <li>image (optional)</li>

@@ -10,7 +10,8 @@
 
       <hr class="margin-vertical-3">
 
-      <p><strong>PROPS:</strong></p>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>image (required - the wireframes say to display a default image if an image is not given)</li>
         <li>altText (optional, but highly recommend for SEO)</li>

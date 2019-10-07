@@ -10,7 +10,8 @@
 
       <hr class="margin-vertical-3">
 
-      <h6><strong>PROPS:</strong></h6>
+      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+      <p>This component will have fields for:</p>
       <ul>
         <li>gets quote, name (optional), reviewDate (optional) and byline (optional) from reviews.json file</li>
         <li>alignment: can be left or center (optional, center is the default)</li>
