@@ -3,6 +3,8 @@ import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
 import Carousel from '~/components/Carousel/Carousel'
 import Slide from '~/components/Carousel/Slide'
+import TableOfContents from '~/components/StyleGuide/TableOfContents'
+import SgNavigation from '~/components/StyleGuide/SgNavigation'
 
 // custom Vue directives
 import { a11yClick } from '../plugins/a11yClickDirective'
@@ -43,6 +45,8 @@ requireComponent.keys().forEach((fileName) => {
 
 Vue.component('carousel', Carousel)
 Vue.component('slide', Slide)
+Vue.component('table-of-contents', TableOfContents)
+Vue.component('sg-navigation', SgNavigation)
 
 // eslint-disable-next-line no-new
 new Vue({

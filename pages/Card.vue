@@ -27,11 +27,11 @@
       <div class="grid-x grid-margin-x grid-margin-y padding-smaller">
         <div class="cell large-4 medium-6 small-12">
           <card
-            header="Card Header"
+            header="Header"
             image="https://picsum.photos/600/400?grayscale"
             altText="alternative text"
             subtitle="subtitle"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
           >
           </card>
         </div>
@@ -41,16 +41,16 @@
             link="http://www.google.com"
             hasTextLink="true"
             subtitle="subtitle"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
           >
           </card>
         </div>
         <div class="cell large-4 medium-6 small-12">
           <card
-            header="Card Header"
+            header="Header"
             link="http://www.google.com"
             hasTextLink="true"
-            title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+            title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
           >
           </card>
         </div>

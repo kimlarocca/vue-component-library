@@ -57,6 +57,18 @@ footer {
     }
   }
 
+  input,
+  [type='text'],
+  button {
+    width: 250px;
+  }
+
+  ::placeholder {
+    color: $medium-dark-gray;
+    font-family: $primary-font-family;
+    font-size: .875rem;
+  }
+
   .bottom {
     font-size: .8rem;
     margin: 2rem 0;

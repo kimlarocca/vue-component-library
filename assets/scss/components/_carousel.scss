@@ -57,3 +57,29 @@
     }
   }
 }
+
+
+
+.card-carousel {
+  .VueCarousel {
+
+    .VueCarousel-pagination {
+      position: relative;
+    }
+
+    .VueCarousel-dot {
+      background-color: $medium-gray !important;
+
+      &.VueCarousel-dot--active {
+        background-color: white !important;
+      }
+    }
+
+    .card-carousel-content {
+      padding: 0 1rem;
+      @media all and (max-width: $breakpoint-mobile) {
+        padding: 0;
+      }
+    }
+  }
+}

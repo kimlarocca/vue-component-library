@@ -13,7 +13,7 @@
         <h3 v-if="hasTitle" class="margin-bottom-2">{{ title }}</h3>
         <slot name="content"></slot>
         <template v-if="hasLink">
-          <a :href="ctaLink" class="button" target="_blank">{{cta}}</a>
+          <a :href="link" class="button" target="_blank">{{cta}}</a>
         </template>
       </div>
     </div>
@@ -30,7 +30,7 @@
       video: String,
       alignment: String,
       cta: String,
-      ctaLink: String,
+      link: String,
       backgroundColor: {
         default: 'white'
       }

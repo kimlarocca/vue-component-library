@@ -3,7 +3,7 @@
 
     <div class="container margin-vertical-2">
 
-      <h1 class="margin-bottom-1">announcement callout component</h1>
+      <h1 class="margin-bottom-1">callout component</h1>
       <p>
         <nuxt-link to="/">&lt; back to style guide</nuxt-link>
       </p>
@@ -23,7 +23,7 @@
 
       <p><strong>SLOTS:</strong></p>
       <ul>
-        <li>description (optional)</li>
+        <li>content (optional)</li>
       </ul>
 
       <div class="section-padding-50"></div>

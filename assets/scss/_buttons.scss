@@ -60,6 +60,18 @@ button,
     }
   }
 
+  &.ghost-black {
+    background-color: transparent;
+    border: 2px solid $black;
+    color: $black;
+
+    &:hover {
+      background-color: $black;
+      color: $white;
+      opacity: 1;
+    }
+  }
+
   &.ghost-primary {
     background-color: transparent;
     border: 2px solid $primary;

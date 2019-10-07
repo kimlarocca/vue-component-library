@@ -1,24 +1,14 @@
-select {
-  &.ghost {
-    appearance: none;
-    border: none;
-    background: transparent right center no-repeat url("/assets/images/caret-down-white.png");
-    color: white;
-    border-bottom: solid 1px white;
-    width: auto;
-    margin-bottom: 25px;
-    position: relative;
-    word-break: normal;
-    font-size: .875rem;
-    padding: 0 1rem 0 0;
-    @media all and (max-width: $breakpoint-mobile) {
-      font-size: .75rem;
-    }
+label,
+fieldset {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
 
-    // to remove arrow from IE11
-    &::-ms-expand {
-      display: none;
-    }
+textarea {
+  height: 100px;
+}
 
-  }
+legend {
+  font-weight: 700;
+  font-size: 1rem;
 }
