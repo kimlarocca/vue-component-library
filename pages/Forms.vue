@@ -9,7 +9,7 @@
             <h3 class="margin-bottom-2">Basic Form Elements</h3>
 
             <div class="grid-x grid-margin-x grid-margin-y">
-                <div class="cell auto">
+                <div class="cell small-12 medium-auto">
                     <p><strong>Inputs &amp; Text Areas</strong></p>
                     <label>Text Input
                         <input type="text" id="test" placeholder="placeholder text">
@@ -33,7 +33,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="cell auto">
+                <div class="cell small-12 medium-auto">
                     <p><strong>Select Menus</strong></p>
                     <label>Single Select Menu
                         <select>

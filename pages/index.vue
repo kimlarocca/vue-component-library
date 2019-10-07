@@ -35,17 +35,17 @@
             <section id="colors">
                 <div class="section-padding-50"></div>
                 <h3 class="margin-bottom-2">Colors</h3>
-                <div class="grid-x grid-margin-x colors">
-                    <div class="cell auto bg-primary"><span>$primary</span></div>
-                    <div class="cell auto bg-secondary"><span>$secondary</span></div>
-                    <div class="cell auto bg-tertiary"><span>$tertiary</span></div>
-                    <div class="cell auto bg-quaternary"><span>$quaternary</span></div>
+                <div class="grid-x grid-margin-x grid-margin-y colors">
+                    <div class="cell small-12 medium-6 large-auto bg-primary"><span>$primary</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-secondary"><span>$secondary</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-tertiary"><span>$tertiary</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-quaternary"><span>$quaternary</span></div>
                 </div>
-                <div class="grid-x grid-margin-x colors">
-                    <div class="cell auto bg-light-gray"><span>$light-gray</span></div>
-                    <div class="cell auto bg-medium-gray"><span>$medium-gray</span></div>
-                    <div class="cell auto bg-medium-dark-gray"><span>$medium-dark-gray</span></div>
-                    <div class="cell auto bg-dark-gray"><span>$dark-gray</span></div>
+                <div class="grid-x grid-margin-x grid-margin-y colors">
+                    <div class="cell small-12 medium-6 large-auto bg-light-gray"><span>$light-gray</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-medium-gray"><span>$medium-gray</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-medium-dark-gray"><span>$medium-dark-gray</span></div>
+                    <div class="cell small-12 medium-6 large-auto bg-dark-gray"><span>$dark-gray</span></div>
                 </div>
             </section>
 
