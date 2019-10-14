@@ -12,7 +12,10 @@
                 <div class="cell small-12 medium-auto">
                     <p><strong>Inputs &amp; Text Areas</strong></p>
                     <label>Text Input
-                        <input type="text" id="test" placeholder="placeholder text">
+                        <input type="text" placeholder="here is some placeholder text">
+                    </label>
+                    <label>Search Text Input
+                        <input type="text" id="search" placeholder="search resources">
                     </label>
                     <label>
                         Number Input
@@ -26,11 +29,11 @@
                     </label>
                     <p><strong>Inline buttons</strong></p>
                     <div class="input-group">
-                      <label for="inline-input" class="hide-ally-element">Label</label>
-                            <input id="inline-input" class="input-group-field" type="number">
-                            <div class="input-group-button">
-                                <input type="submit" class="button" value="Submit">
-                            </div>
+                        <label for="inline-input" class="hide-ally-element">Label</label>
+                        <input id="inline-input" class="input-group-field" type="number">
+                        <div class="input-group-button">
+                            <input type="submit" class="button" value="Submit">
+                        </div>
                     </div>
                 </div>
                 <div class="cell small-12 medium-auto">
