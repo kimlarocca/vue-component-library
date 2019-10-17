@@ -1,9 +1,9 @@
 <template>
-  <li>
-    <a :href="link" :style="{ background: backgroundColor }" :class="{'no-background' : !hasBackground }">
-      <i :class="icon" :style="{ color: iconColor }"></i>
-    </a>
-  </li>
+    <li>
+        <a :href="link" :style="{ background: backgroundColor }" :class="{'no-background' : !hasBackground }">
+            <i :class="icon" :style="{ color: iconColor }"></i>
+        </a>
+    </li>
 </template>
 
 <script>

@@ -65,7 +65,7 @@
             icon="fab fa-facebook-f"
             link="https://www.facebook.com/sfsymphony"
             altText="facebook"
-            color="black"
+            iconColor="pink"
             backgroundColor="white"
           >
           </social-link>
@@ -73,7 +73,7 @@
             icon="fab fa-twitter"
             link="https://www.facebook.com/sfsymphony"
             altText="facebook"
-            color="black"
+            iconColor="black"
             backgroundColor="white"
           >
           </social-link>
@@ -81,7 +81,7 @@
             icon="fab fa-youtube"
             link="https://www.facebook.com/sfsymphony"
             altText="facebook"
-            color="black"
+            iconColor="black"
             backgroundColor="white"
           >
           </social-link>
@@ -89,7 +89,7 @@
             icon="fab fa-spotify"
             link="https://www.facebook.com/sfsymphony"
             altText="facebook"
-            color="black"
+            iconColor="black"
             backgroundColor="white"
           >
           </social-link>
@@ -97,7 +97,7 @@
             icon="fab fa-instagram"
             link="https://www.facebook.com/sfsymphony"
             altText="facebook"
-            color="black"
+            iconColor="black"
             backgroundColor="white"
           >
           </social-link>
