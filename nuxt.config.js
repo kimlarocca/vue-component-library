@@ -63,6 +63,30 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extractCSS: true
+    extractCSS: true,
+    splitChunks: {
+      layouts: false,
+      pages: false,
+      commons: false
+    },
+    filenames: {
+      app:
+          ({isDev}) => isDev ? '[name].js' : 'assets/js/[name].js',
+      chunk:
+          ({isDev}) => isDev ? '[name].js' : 'assets/js/[name].js',
+      css:
+          ({isDev}) => isDev ? '[name].css' : 'assets/css/[name].css',
+      img:
+          ({isDev}) => isDev ? '[path][name].[ext]' : 'assets/images/[name].[ext]',
+      font:
+          ({isDev}) => isDev ? '[path][name].[ext]' : 'assets/fonts/[name].[ext]',
+      video:
+          ({isDev}) => isDev ? '[path][name].[ext]' : 'assets/videos/[name].[ext]'
+    }
+  },
+  generate: {
+    minify: {
+      removeRedundantAttributes: false
+    }
   }
 }
