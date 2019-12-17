@@ -39,7 +39,7 @@
                         >
                         </social-link>
                     </ul>
-                    <h6 class="margin-bottom-1">subscribe to our newsletter</h6>
+                    <div class="margin-bottom-1 like-h6">subscribe to our newsletter</div>
                     <form>
                         <label for="emailAddress" class="hide-ally-element"></label>
                         <input id="emailAddress" type="text" placeholder="email address">
@@ -65,7 +65,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <h6>why us</h6>
+                                <div class="like-h6">why us</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -80,7 +80,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <h6>about us</h6>
+                                <div class="like-h6">about us</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -95,7 +95,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <h6>resources</h6>
+                                <div class="like-h6">resources</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
