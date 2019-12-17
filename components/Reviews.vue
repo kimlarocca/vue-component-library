@@ -9,10 +9,10 @@
         :perPage="1"
       >
         <slide v-for="(review, index) in reviews" :key="index">
-          <p class="review">"{{ review.review }}"</p>
-          <p v-if="review.name !== ''" class="name">{{ review.name }}</p>
-          <p v-if="review.byline !== ''" class="byline">{{ review.byline }}</p>
-          <p v-if="review.reviewDate !== ''" class="reviewDate">{{ review.reviewDate }}</p>
+          <div class="review like-p">"{{ review.review }}"</div>
+          <div v-if="review.name !== ''" class="name like-p">{{ review.name }}</div>
+          <div v-if="review.byline !== ''" class="byline like-p">{{ review.byline }}</div>
+          <div v-if="review.reviewDate !== ''" class="reviewDate like-p">{{ review.reviewDate }}</div>
         </slide>
       </carousel>
     </div>
