@@ -2,7 +2,7 @@
 
   <section class="callout" :class="[backgroundColor, alignment]">
     <div class="content">
-      <h3 v-if="hasTitle" class="margin-bottom-1">{{ title }}</h3>
+      <div v-if="hasTitle" class="margin-bottom-1 like-h3">{{ title }}</div>
       <div v-if="hasDescription" class="description">
         <slot></slot>
       </div>
