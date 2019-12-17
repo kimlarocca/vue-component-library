@@ -1,15 +1,20 @@
-@import "variables";
+@import 'variables';
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 900;
   src: url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot');
-  src: url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2') format('woff2'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff') format('woff'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf') format('truetype'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome') format('svg');
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.eot?#iefix')
+      format('embedded-opentype'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2')
+      format('woff2'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff')
+      format('woff'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf')
+      format('truetype'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-solid-900.svg#fontawesome')
+      format('svg');
 }
 
 .fa,
@@ -23,11 +28,16 @@
   font-style: normal;
   font-weight: normal;
   src: url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot');
-  src: url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2') format('woff2'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff') format('woff'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf') format('truetype'),
-  url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+  src: url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.eot?#iefix')
+      format('embedded-opentype'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2')
+      format('woff2'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff')
+      format('woff'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf')
+      format('truetype'),
+    url('~@fortawesome/fontawesome-free/webfonts/fa-brands-400.svg#fontawesome')
+      format('svg');
 }
 
 .fab {
@@ -37,10 +47,13 @@
 @font-face {
   font-family: 'Beatrice';
   src: url('~assets/fonts/Beatrice-Regular.eot'); /* IE9 Compat Modes */
-  src: url('~assets/fonts/Beatrice-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('~assets/fonts/Beatrice-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-  url('~assets/fonts/Beatrice-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-  url('~assets/fonts/Beatrice-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('~assets/fonts/Beatrice-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('~assets/fonts/Beatrice-Regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('~assets/fonts/Beatrice-Regular.woff')
+      format('woff'),
+    /* Pretty Modern Browsers */ url('~assets/fonts/Beatrice-Regular.ttf')
+      format('truetype'); /* Safari, Android, iOS */
   font-weight: normal;
   font-style: normal;
 }
@@ -48,10 +61,13 @@
 @font-face {
   font-family: 'Beatrice';
   src: url('~assets/fonts/Beatrice-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('~assets/fonts/Beatrice-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('~assets/fonts/Beatrice-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
-  url('~assets/fonts/Beatrice-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
-  url('~assets/fonts/Beatrice-Semibold.ttf') format('truetype'); /* Safari, Android, iOS */
+  src: url('~assets/fonts/Beatrice-Semibold.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('~assets/fonts/Beatrice-Semibold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('~assets/fonts/Beatrice-Semibold.woff')
+      format('woff'),
+    /* Pretty Modern Browsers */ url('~assets/fonts/Beatrice-Semibold.ttf')
+      format('truetype'); /* Safari, Android, iOS */
   font-weight: 700;
   font-style: normal;
 }
@@ -132,8 +148,9 @@ h6,
   font-weight: 600;
 }
 
-p {
-  font-size: .9375rem;
+p,
+.like-p {
+  font-size: 0.9375rem;
   line-height: 1.25rem;
   margin-bottom: 1rem;
   text-transform: none;
@@ -151,5 +168,5 @@ em {
 }
 
 .small-body-text {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }

@@ -29,9 +29,9 @@
                     altText="placeholder image 1"
                     alignment="center">
                 <slot>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
+                    <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
                         iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem minus
-                        officiis optio quo rerum sit voluptatum.</p>
+                        officiis optio quo rerum sit voluptatum.</div>
                 </slot>
             </cta-card>
 
@@ -45,9 +45,9 @@
                     altText="placeholder image 2"
             >
                 <slot>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
+                    <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
                         iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem minus
-                        officiis optio quo rerum sit voluptatum.</p>
+                        officiis optio quo rerum sit voluptatum.</div>
                 </slot>
             </cta-card>
 
@@ -64,11 +64,11 @@
                             link="http://www.google.com"
                             alignment="center">
                         <slot>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
+                            <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
                                 tempore. Cum
                                 iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem
                                 minus
-                                officiis optio quo rerum sit voluptatum.</p>
+                                officiis optio quo rerum sit voluptatum.</div>
                         </slot>
                     </cta-card>
                 </div>
@@ -80,11 +80,11 @@
                             link="http://www.bing.com"
                             alignment="center">
                         <slot>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
+                            <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
                                 tempore. Cum
                                 iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem
                                 minus
-                                officiis optio quo rerum sit voluptatum.</p>
+                                officiis optio quo rerum sit voluptatum.</div>
                         </slot>
                     </cta-card>
                 </div>
@@ -96,11 +96,11 @@
                             link="http://www.yahoo.com"
                             alignment="center">
                         <slot>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
+                            <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi
                                 tempore. Cum
                                 iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem
                                 minus
-                                officiis optio quo rerum sit voluptatum.</p>
+                                officiis optio quo rerum sit voluptatum.</div>
                         </slot>
                     </cta-card>
                 </div>
@@ -117,9 +117,9 @@
                     alignment="center-on-mobile"
             >
                 <slot>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
+                    <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore reiciendis sequi tempore. Cum
                         iure necessitatibus nobis quis reprehenderit! Ad asperiores atque ea exercitationem minus
-                        officiis optio quo rerum sit voluptatum.</p>
+                        officiis optio quo rerum sit voluptatum.</div>
                 </slot>
             </cta-card>
 

@@ -15,9 +15,9 @@
             </div>
             <div class="cell medium-auto small-12">
                 <a v-if="hasLink && hasTitle" :href="link">
-                    <h3 v-if="hasTitle" class="margin-bottom-1">{{ title }}</h3>
+                    <div v-if="hasTitle" class="margin-bottom-1 like-h3">{{ title }}</div>
                 </a>
-                <h3 v-if="!hasLink && hasTitle" class="margin-bottom-1">{{ title }}</h3>
+                <div v-if="!hasLink && hasTitle" class="margin-bottom-1 like-h3">{{ title }}</div>
                 <slot></slot>
             </div>
         </div>
