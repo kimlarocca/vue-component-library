@@ -42,11 +42,11 @@
                 image="https://picsum.photos/600/400?grayscale"
         >
             <template slot="content">
-                <h4>Rich text content goes here</h4>
-                <p>Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante lacinia
+                <div class="like-h4">Rich text content goes here</div>
+                <div class="like-p">Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante lacinia
                     lacus, in mollis neque velit a lorem. Nulla feugiat sem vel augue varius tincidunt. Quisque
-                    ultrices</p>
-                <p><strong>LOREM IPSUM DOLOR SITE AMET</strong></p>
+                    ultrices</div>
+                <div class="like-p"><strong>LOREM IPSUM DOLOR SITE AMET</strong></div>
             </template>
         </content-blade>
 
@@ -67,10 +67,10 @@
                 alignment="right"
         >
             <template slot="content">
-                <h4>Rich text content goes here</h4>
-                <p>Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante lacinia
+                <div class="like-h4">Rich text content goes here</div>
+                <div class="like-p">Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante lacinia
                     lacus, in mollis neque velit a lorem. Nulla feugiat sem vel augue varius tincidunt. Quisque
-                    ultrices</p>
+                    ultrices</div>
                 <a href="#">This is a link to learn more.</a>
             </template>
         </content-blade>
@@ -92,11 +92,11 @@
                 backgroundColor="dark"
         >
             <template slot="content">
-                <p>Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
+                <div class="like-p">Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
                     lacinia
                     lacus, in mollis neque velit a lorem. Nulla feugiat sem vel augue varius tincidunt. Quisque
-                    ultrices</p>
-                <p><strong>LOREM IPSUM DOLOR SITE AMET</strong></p>
+                    ultrices</div>
+                <div class="like-p"><strong>LOREM IPSUM DOLOR SITE AMET</strong></div>
             </template>
         </content-blade>
 
@@ -119,10 +119,10 @@
                 alignment="left"
         >
             <template slot="content">
-                <p>Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
+                <div class="like-p">Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
                     lacinia
                     lacus, in mollis neque velit a lorem. Nulla feugiat sem vel augue varius tincidunt. Quisque
-                    ultrices</p>
+                    ultrices</div>
             </template>
         </content-blade>
 
@@ -145,10 +145,10 @@
                 alignment="right"
         >
             <template slot="content">
-                <p>Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
+                <div class="like-p">Rich text content goes here. Proin non vehicula ante. Morbi ornare, est ac euismod ultricies, ex ante
                     lacinia
                     lacus, in mollis neque velit a lorem. Nulla feugiat sem vel augue varius tincidunt. Quisque
-                    ultrices</p>
+                    ultrices</div>
             </template>
         </content-blade>
 

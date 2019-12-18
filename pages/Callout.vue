@@ -41,8 +41,8 @@
         link2="http://www.bing.com"
       >
         <slot>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-            voluptatum.</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+            voluptatum.</div>
         </slot>
       </callout>
 
@@ -61,8 +61,8 @@
         link2="http://www.bing.com"
       >
         <slot>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-            voluptatum.</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+            voluptatum.</div>
         </slot>
       </callout>
 
@@ -81,8 +81,8 @@
         link2="http://www.bing.com"
       >
         <slot>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-            voluptatum.</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+            voluptatum.</div>
         </slot>
       </callout>
 
@@ -101,8 +101,8 @@
         link2="http://www.bing.com"
       >
         <slot>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-            voluptatum.</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+            voluptatum.</div>
         </slot>
       </callout>
 
@@ -121,8 +121,8 @@
         link2="http://www.bing.com"
       >
         <slot>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-            voluptatum.</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+            voluptatum.</div>
         </slot>
       </callout>
 
@@ -134,9 +134,9 @@
 
       <div class="grid-x grid-margin-x grid-margin-y">
         <div class="cell medium-8 small-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</p>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</div>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</div>
+          <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ea fugiat iure maiores, totam veritatis vero. Animi excepturi non quas, qui ut velit vitae? Dicta fugit labore magni non?</div>
         </div>
         <div class="cell medium-4 small-12">
           <callout
@@ -147,8 +147,8 @@
             alignment="left"
           >
             <slot>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
-                voluptatum.</p>
+              <div class="like-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum libero obcaecati officia repellat
+                voluptatum.</div>
             </slot>
           </callout>
         </div>

@@ -10,7 +10,7 @@
         <media-block :url="video"></media-block>
       </div>
       <div class="cell medium-auto small-12 content">
-        <h3 v-if="hasTitle" class="margin-bottom-2">{{ title }}</h3>
+        <div v-if="hasTitle" class="margin-bottom-2 like-h3">{{ title }}</div>
         <slot name="content"></slot>
         <template v-if="hasLink">
           <a :href="link" class="button" target="_blank">{{cta}}</a>

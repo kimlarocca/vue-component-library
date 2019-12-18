@@ -7,8 +7,8 @@
         <img :src="image" :alt="altText"/>
       </div>
       <div class="cell large-auto medium-auto small-12">
-        <p v-if="hasName" class="name">{{ name }}</p>
-        <p v-if="hasTitle" class="title">{{ title }}</p>
+        <div v-if="hasName" class="name">{{ name }}</div>
+        <div v-if="hasTitle" class="title like-p">{{ title }}</div>
         <slot></slot>
         <a v-if="hasLink && !hasTextLink" :href="link" class="button">{{ cta }}</a>
         <a v-if="hasLink && hasTextLink" :href="link" class="caret-right">{{ cta }}</a>

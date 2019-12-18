@@ -32,7 +32,7 @@
       link="http://www.google.com"
     >
       <slot>
-        <h1>Lorem ipsum dolor sit amet, consectetur facere.</h1>
+        <div class="like-h1">Lorem ipsum dolor sit amet, consectetur facere.</div>
       </slot>
     </hero>
 
@@ -45,8 +45,8 @@
       alignment="left"
     >
       <slot>
-        <h1>Lorem ipsum dolor sit amet, consectetur.</h1>
-        <p>Ad atque beatae cumque eligendi facere itaque culpa nobis nostrum quasi repellat.</p>
+        <div class="like-h1">Lorem ipsum dolor sit amet, consectetur.</div>
+        <div class="like-p">Ad atque beatae cumque eligendi facere itaque culpa nobis nostrum quasi repellat.</div>
       </slot>
     </hero>
 
