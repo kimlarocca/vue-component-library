@@ -1,7 +1,7 @@
 <template>
     <li>
         <a :href="link" :style="{ background: backgroundColor }" :class="{'no-background' : !hasBackground }">
-            <i :class="icon" :style="{ color: iconColor }"></i>
+            <i :class="icon" :style="{ color: iconColor }"/>
         </a>
     </li>
 </template>

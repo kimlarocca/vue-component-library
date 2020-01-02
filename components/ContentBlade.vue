@@ -12,7 +12,7 @@
       <div class="cell medium-auto small-12 content">
         <div v-if="hasTitle" class="margin-bottom-2 like-h3">{{ title }}</div>
         <slot name="content"></slot>
-        <template v-if="hasLink">
+        <template v-if="hasLink && hasCta">
           <a :href="link" class="button" target="_blank">{{cta}}</a>
         </template>
       </div>
@@ -40,13 +40,16 @@
         return !!this.$props.title
       },
       hasLink () {
-        return !!this.$props.cta
+        return !!this.$props.link
       },
       hasImage () {
         return !!this.$props.image
       },
       hasVideo () {
         return !!this.$props.video
+      },
+      hasCta () {
+        return !!this.$props.cta
       },
       rightAligned () {
         return this.$props.alignment === 'right'

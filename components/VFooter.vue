@@ -41,7 +41,7 @@
                     </ul>
                     <div class="margin-bottom-1 like-h6">subscribe to our newsletter</div>
                     <form>
-                        <label for="emailAddress" class="hide-ally-element"></label>
+                        <label for="emailAddress" class="hide-ally-element"/>
                         <input id="emailAddress" type="text" placeholder="email address">
                         <button class="button">submit</button>
                     </form>
@@ -50,7 +50,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <h6>services</h6>
+                                <h6>link group 1</h6>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -65,7 +65,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <div class="like-h6">why us</div>
+                                <div class="like-h6">link group 2</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -80,7 +80,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <div class="like-h6">about us</div>
+                                <div class="like-h6">link group 3</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -95,7 +95,7 @@
                     <accordion mobileOnly="true" class="no-border-on-desktop">
                         <accordion-item>
                             <template slot="header">
-                                <div class="like-h6">resources</div>
+                                <div class="like-h6">link group 4</div>
                             </template>
                             <template slot="content">
                                 <ul class="menu">
@@ -110,7 +110,7 @@
 
             <div class="bottom content">
                 <ul>
-                    <li class="copyright">©2014-{{ currentYear }} Company Name. All rights reserved.</li>
+                    <li class="copyright">©{{ currentYear }} Company Name. All rights reserved.</li>
                     <li v-for="(link, index) in footerLinks" :key="index">
                         <a :href="link.url"> {{ link.name }}</a>
                     </li>
@@ -122,10 +122,14 @@
 </template>
 
 <script>
+    import SocialLink from '../components/SocialLink'
+    import Accordion from '../components/Accordion'
+    import AccordionItem from '../components/AccordionItem'
     import navigation from '../assets/json/navigation'
 
     export default {
-        name: 'Footer',
+        name: 'VFooter',
+        components: { SocialLink, Accordion, AccordionItem },
         data: function () {
             return {
                 currentYear: this.getCurrentYear(),

@@ -12,17 +12,19 @@
 
       <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
       <p>This component will have fields for:</p>
-      <ul>
+      <ul class="margin-bottom-1">
         <li>icon: the font awesome class name e.g. "fab fa-facebook-f"</li>
         <li>link</li>
-        <li>altText</li>
-        <li>iconColor: will set the icon color as inline css - use keywords or hex values (default is black)</li>
-        <li>backgroundColor: will set the background color as inline css - use keywords or hex values (default is
-          transparent)
-        </li>
+        <li>alternative image text</li>
+        <li>icon color (default is black)</li>
+        <li>background color (default is transparent)</li>
       </ul>
 
-      <div class="section-padding-50"></div>
+      <div class="section-padding-25"></div>
+
+      <p><strong>EXAMPLES:</strong></p>
+
+      <div class="section-padding-25"></div>
 
       <ul class="social-links">
         <social-link
@@ -110,3 +112,11 @@
 
   </div>
 </template>
+
+<script>
+  import SocialLink from '../components/SocialLink'
+
+  export default {
+    components: { SocialLink }
+  }
+</script>

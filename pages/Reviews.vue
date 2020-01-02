@@ -4,28 +4,32 @@
     <div class="container">
 
       <h1>reviews component</h1>
-      <p>
-        <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-      </p>
 
       <hr class="margin-vertical-3">
 
       <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
       <p>This component will have fields for:</p>
-      <ul>
-        <li>gets quote, name (optional), reviewDate (optional) and byline (optional) from reviews.json file</li>
+      <ul class="margin-bottom-1">
+        <li>quote</li>
+        <li>name (optional)</li>
+        <li>review date (optional)</li>
+        <li>byline (optional)</li>
         <li>alignment: can be left or center (optional, center is the default)</li>
       </ul>
 
-      <div class="section-padding-50"></div>
+      <div class="section-padding-25"></div>
+
+      <p><strong>EXAMPLES:</strong></p>
+
+      <div class="section-padding-25"></div>
 
     </div>
 
-    <reviews></reviews>
+    <reviews/>
 
     <div class="section-padding-100"></div>
 
-    <reviews alignment="left"></reviews>
+    <reviews alignment="left"/>
 
     <div class="section-padding-100"></div>
 

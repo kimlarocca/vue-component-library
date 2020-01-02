@@ -4,9 +4,6 @@
     <div class="container">
 
       <h1>breadcrumbs component</h1>
-      <p>
-        <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-      </p>
 
       <hr class="margin-vertical-3">
 

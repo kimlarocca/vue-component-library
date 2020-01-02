@@ -4,6 +4,7 @@ $height: 540px;
 $small-height: 320px;
 $padding: 50px;
 $padding-mobile: 1rem;
+$text-shadow: 0 0 15px #666;
 
 .hero {
   display: flex;
@@ -56,6 +57,7 @@ $padding-mobile: 1rem;
     p,
     .like-p {
       color: $white;
+      text-shadow: $text-shadow;
     }
 
     p,
@@ -71,6 +73,10 @@ $padding-mobile: 1rem;
         max-width: 100%;
       }
     }
+
+    .button {
+      margin-top: 1rem;
+    }
   }
 
   &.small {
@@ -79,7 +85,8 @@ $padding-mobile: 1rem;
     .content {
       align-self: flex-end;
 
-      h1 {
+      h1,
+      .like-h1 {
         max-width: 100%;
         @extend .like-h2;
       }
@@ -90,9 +97,10 @@ $padding-mobile: 1rem;
     .content {
       text-align: left;
 
-      h1 {
+      h1,
+      .like-h1 {
         max-width: 100%;
-        margin: 0 auto 1rem 0;
+        margin: 0 auto 2rem 0;
       }
     }
   }

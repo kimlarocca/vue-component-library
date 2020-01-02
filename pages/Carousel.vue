@@ -2,9 +2,6 @@
     <div>
         <div class="container">
             <h1>Carousels</h1>
-            <p class="subhead5 padding">
-                <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-            </p>
 
             <hr class="margin-vertical-3">
 

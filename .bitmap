@@ -97,11 +97,6 @@
                 "relativePath": "components/EventCard.vue",
                 "test": false,
                 "name": "EventCard.vue"
-            },
-            {
-                "relativePath": "pages/EventCard.vue",
-                "test": false,
-                "name": "EventCard.vue"
             }
         ],
         "mainFile": "components/EventCard.vue",

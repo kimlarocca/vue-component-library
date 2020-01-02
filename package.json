@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-test",
+  "name": "vue-component-library",
   "version": "1.0.0",
-  "description": "My brilliant Nuxt.js project",
+  "description": "Vue Frontend Component Library",
   "author": "Kim LaRocca",
   "private": true,
   "scripts": {

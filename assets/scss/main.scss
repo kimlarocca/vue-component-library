@@ -122,6 +122,10 @@ hr {
   }
 }
 
+.section-padding-25 {
+  padding-top: 25px;
+}
+
 //extends foundation xy grid to add 2x margin-x gutters option on desktop
 .grid-margin-2x {
   @media all and (min-width: $breakpoint-tablet+1) {

@@ -4,15 +4,12 @@
     <div class="container margin-vertical-2">
 
       <h1 class="margin-bottom-1">callout component</h1>
-      <p>
-        <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-      </p>
 
       <hr class="margin-vertical-3">
 
       <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
       <p>This component will have fields for:</p>
-      <ul class="margin-bottom-3">
+      <ul class="margin-bottom-1">
         <li>backgroundColor: can be white, gray, dark, primary or secondary (optional, default is white)</li>
         <li>title (optional)</li>
         <li>link - button link (optional)</li>
@@ -20,14 +17,12 @@
         <li>link2 - secondary button link (optional)</li>
         <li>cta2 - secondary button text (optional)</li>
         <li>alignment - can be left or center (optional - default is center)</li>
-      </ul>
-
-      <p><strong>SLOTS:</strong></p>
-      <ul>
         <li>content (optional)</li>
       </ul>
 
-      <div class="section-padding-50"></div>
+      <div class="section-padding-25"></div>
+      <p><strong>EXAMPLES:</strong></p>
+      <div class="section-padding-25"></div>
 
       <p><strong>White style:</strong></p>
 
