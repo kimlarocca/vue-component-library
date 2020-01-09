@@ -45,6 +45,7 @@
                     { 'name': 'Callouts', 'link': 'Callout' },
                     { 'name': 'Cards', 'link': 'Card' },
                     { 'name': 'Content Blades', 'link': 'ContentBlade' },
+                    { 'name': 'Cookie Notification', 'link': 'CookieNotification' },
                     { 'name': 'CTA Cards', 'link': 'CtaCard' },
                     { 'name': 'Carousels', 'link': 'Carousel' },
                     { 'name': 'Footer', 'link': 'Footer' },

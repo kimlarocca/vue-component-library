@@ -1,0 +1,53 @@
+@import "../variables";
+
+$height: 10rem;
+$background: $medium-gray ;
+
+
+.cookie-notification {
+    box-sizing: border-box;
+    z-index: 1738;
+    background-color: $background;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    #close-cookie-notification {
+        position: absolute;
+        right: 25px;
+        top: 0px;
+        cursor: pointer;
+        padding: 20px;
+
+        .fas {
+            font-size: 25px;
+            color: #f4f4f4;
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+
+    }
+
+    &.activeCookie {
+        height: $height;
+    }
+
+    @media all and (max-width: $breakpoint-mobile) {
+        height: 10rem;
+        padding-top: 2rem;
+        top: 0;
+        #close-cookie-notification {
+            top:10px
+        }
+
+        &.activeCookie {
+            height: 15rem;
+        }
+    }
+}
