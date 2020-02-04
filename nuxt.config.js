@@ -2,7 +2,7 @@ export default {
 
     /* delete this section if your SPA is running in the server root directory */
     router: {
-        base: '/library/dist/'
+        base: '/library/'
     },
 
     mode: 'universal',
@@ -64,7 +64,7 @@ export default {
     ** Build configuration
     */
     dev: {
-        publicPath: '/library/dist/'
+        publicPath: '/library/'
     },
     build: {
         /*
