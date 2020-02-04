@@ -70,7 +70,7 @@ export default {
         /*
         ** You can extend webpack config here
         */
-        // publicPath: '/',
+        publicPath: '/',
         extractCSS: true,
         splitChunks: {
             layouts: false,
