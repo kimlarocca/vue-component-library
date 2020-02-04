@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
-import Carousel from '~/components/Carousel/Carousel'
-import Slide from '~/components/Carousel/Slide'
 import TableOfContents from '~/components/StyleGuide/TableOfContents'
 import SgNavigation from '~/components/StyleGuide/SgNavigation'
 
@@ -16,41 +14,38 @@ import { a11yClick } from '../plugins/a11yClickDirective'
 
 // https://webpack.js.org/guides/dependency-management/#require-context
 const requireComponent = require.context(
-  // Look for files in the this directory
-  '../components',
-  // look in subdirectories
-  true,
-  // Only include "_base-" prefixed .vue files
-  // /_base-[\w-]+\.vue$/
-  /[\w-]+\.vue$/
+    // Look for files in the this directory
+    '../components',
+    // look in subdirectories
+    true,
+    // Only include "_base-" prefixed .vue files
+    /_base-[\w-]+\.vue$/
 )
 
 // For each matching file name...
 requireComponent.keys().forEach((fileName) => {
-  // Get the component config
-  const componentConfig = requireComponent(fileName)
-  // Get the PascalCase version of the component name
-  const componentName = upperFirst(
-    camelCase(
-      fileName
-      // Remove the "./_" from the beginning
-        .replace(/^\.\/_/, '')
-        // Remove the file extension from the end
-        .replace(/\.\w+$/, '')
+    // Get the component config
+    const componentConfig = requireComponent(fileName)
+    // Get the PascalCase version of the component name
+    const componentName = upperFirst(
+        camelCase(
+            fileName
+                // Remove the "./_" from the beginning
+                .replace(/^\.\/_/, '')
+                // Remove the file extension from the end
+                .replace(/\.\w+$/, '')
+        )
     )
-  )
-  // Globally register the component
-  Vue.component(componentName, componentConfig.default || componentConfig)
+    // Globally register the component
+    Vue.component(componentName, componentConfig.default || componentConfig)
 })
 
-Vue.component('carousel', Carousel)
-Vue.component('slide', Slide)
 Vue.component('table-of-contents', TableOfContents)
 Vue.component('sg-navigation', SgNavigation)
 
 // eslint-disable-next-line no-new
 new Vue({
-  directives: {
-    a11yClick
-  }
+    directives: {
+        a11yClick
+    }
 })

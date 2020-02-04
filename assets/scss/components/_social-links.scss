@@ -1,19 +1,22 @@
-@import "../variables";
+$font-size: 1.5rem;
+$padding: .5rem;
+$margin: 1rem;
+$social-link-default-color: $black;
 
 .social-links {
 
-  $font-size: 18px;
+  $font-size: $font-size;
 
   li {
     display: inline-block;
-    margin-right: .5rem;
+    margin-right: $margin;
 
     a,
     a:visited,
     a:active {
-      color: $black;
-      height: $font-size * 1.4;
-      width: $font-size * 1.4;
+      color: $social-link-default-color;
+      height: $font-size + $padding;
+      width: $font-size + $padding;
       display: inline-block;
       font-size: $font-size;
       text-align: center;

@@ -32,3 +32,14 @@
 
   </div>
 </template>
+
+<script>
+  // import BiographyCard from '../components/BiographyCard'
+  //
+  // export default {
+  //   name: 'BiographyCardPage',
+  //   components: {
+  //     'biography-card': BiographyCard
+  //   }
+  // }
+</script>

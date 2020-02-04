@@ -1,7 +1,7 @@
 <template>
   <section class="breadcrumbs">
 
-    <div class="grid-x container">
+    <div class="grid-x">
 
       <div class="cell large-auto">
         <ul class="crumbs">
@@ -30,44 +30,3 @@
     }
   }
 </script>
-
-<style scoped lang="scss">
-
-  $color: #606060;
-  $link-color: #0095da;
-  $margin: 5px;
-  $separator: '/';
-
-  .crumbs {
-
-    list-style: none;
-
-    a,
-    a:visited,
-    a:active {
-      color: $link-color;
-      text-decoration: none;
-
-      &:hover {
-        color: $color;
-      }
-    }
-
-    li {
-      display: inline;
-      margin-right: $margin;
-      color: $color;
-
-      &:after {
-        margin-left: $margin;
-        content: $separator;
-      }
-
-      &:last-of-type {
-        &:after {
-          content: '';
-        }
-      }
-    }
-  }
-</style>

@@ -145,3 +145,14 @@
 
     </div>
 </template>
+
+<script>
+    import CtaCard from '../components/CtaCard'
+
+    export default {
+        name: 'CtaCardPage',
+        components: {
+            'cta-card': CtaCard
+        }
+    }
+</script>

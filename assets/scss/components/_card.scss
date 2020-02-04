@@ -1,10 +1,13 @@
-@import "../variables";
+$background: $light-gray;
+$header-background: $medium-gray;
+$padding: 1rem;
+$margin: 1rem;
 
 .card {
   width: 100%;
   height: 100%;
   opacity: 1;
-  background: $light-gray;
+  background: $background;
   transition: $transition;
   position: relative;
 
@@ -14,8 +17,8 @@
   }
 
   .header {
-    padding: 20px;
-    background: $medium-gray;
+    padding: $padding;
+    background: $header-background;
     text-transform: uppercase;
     font-weight: 700;
   }
@@ -26,21 +29,22 @@
   }
 
   .content {
-    padding: 20px;
+    padding: $padding;
 
     .subtitle {
       text-transform: uppercase;
       font-weight: 700;
-      margin-bottom: 1rem;
+      margin-bottom: $margin;
     }
 
     .title {
-      margin-bottom: 1rem;
+      margin-bottom: 0;
     }
 
     .learn-more {
       font-weight: 700;
       color: $link-color;
+      margin: $margin 0 0;
     }
   }
 

@@ -18,6 +18,9 @@
                         <nuxt-link to="/#buttons">Buttons</nuxt-link>
                     </p>
                     <p @click="toggleMenu">
+                        <nuxt-link to="/#grid">The Grid</nuxt-link>
+                    </p>
+                    <p @click="toggleMenu">
                         <nuxt-link to="Forms">Forms</nuxt-link>
                     </p>
                 </li>

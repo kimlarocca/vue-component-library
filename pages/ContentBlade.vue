@@ -166,3 +166,14 @@
 
     </div>
 </template>
+
+<script>
+    import ContentBlade from '../components/ContentBlade'
+
+    export default {
+        name: 'ContentBladePage',
+        components: {
+            'content-blade': ContentBlade
+        }
+    }
+</script>

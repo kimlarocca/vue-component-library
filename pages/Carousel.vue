@@ -5,15 +5,24 @@
 
             <hr class="margin-vertical-3">
 
+            <p><strong>IMAGES:</strong></p>
+            <p>We recommend a minimum image width of 1600px for this component.</p>
+
+            <div class="section-padding-25"></div>
+
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
-            <ul>
+            <ul class="margin-bottom-1">
                 <li>perPage: number of slides to show per page (default is 2)</li>
                 <li>see more options at <a href="https://ssense.github.io/vue-carousel/api/">https://ssense.github.io/vue-carousel/api/</a>
                 </li>
             </ul>
 
-            <div class="section-padding-50"></div>
+            <div class="section-padding-25"></div>
+            <p>
+                <strong>EXAMPLES:</strong>
+            </p>
+            <div class="section-padding-25"></div>
 
         </div>
 
@@ -123,3 +132,17 @@
 
     </div>
 </template>
+
+
+<script>
+    import Carousel from '../components/Carousel/Carousel'
+    import Slide from '../components/Carousel/Slide'
+
+    export default {
+        name: 'CarouselPage',
+        components: {
+            'carousel': Carousel,
+            'slide': Slide
+        }
+    }
+</script>

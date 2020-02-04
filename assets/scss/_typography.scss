@@ -157,9 +157,12 @@ p,
   font-family: $primary-font-family;
 }
 
-b,
-strong {
-  font-weight: 600;
+.uppercase {
+  text-transform: uppercase;
+}
+
+.no-transform {
+  text-transform: none;
 }
 
 i,
@@ -167,6 +170,20 @@ em {
   font-style: italic;
 }
 
+b,
+strong,
+.strong {
+  font-weight: 600;
+}
+
 .small-body-text {
-  font-size: 0.75rem;
+  font-size: $small-font-size;
+}
+
+.two-column-content {
+  columns: 300px 2;
+  column-gap: 4rem;
+  @media all and (max-width: $breakpoint-mobile) {
+    columns: 300px 1;
+  }
 }

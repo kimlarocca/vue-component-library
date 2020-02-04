@@ -1,20 +1,22 @@
-@import "../variables";
+$padding: 50px 2rem;
+$max-width: 500px;
+$margin: 1rem;
 
 .callout {
-  padding: 50px 2rem;
+  padding: $padding;
 
   .content {
     text-align: center;
     width: 100%;
-    max-width: 500px;
+    max-width: $max-width;
     margin: auto;
 
     .description {
-      margin-bottom: 1rem;
+      margin-bottom: $margin;
     }
 
     .button {
-      margin: 0 1rem 0 0;
+      margin: 0 $margin 0 0;
 
       &:last-of-type {
         margin-right: 0;
@@ -22,7 +24,7 @@
 
       @media all and (max-width: $breakpoint-mobile) {
         width: 100%;
-        margin: 0 0 20px 0;
+        margin: 0 0 $margin 0;
         &:last-of-type {
           margin-bottom: 0;
         }

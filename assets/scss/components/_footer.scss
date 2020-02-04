@@ -1,25 +1,20 @@
-@import "../variables";
+$background: $light-gray;
+$padding: 4rem 0 .5rem;
+$header-color: $black;
+$margin: 1rem;
+$form-element-max-width: 250px;
+$mobile-menu-border: 1px solid $medium-gray;
 
 footer {
-  @extend .bg-light-gray;
-  padding: 65px 0 5px;
+  background: $background;
+  padding: $padding;
 
-  a,
-  a:visited,
-  a:active {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: none;
-    }
-  }
-
-  h6, 
+  h6,
   .like-h6 {
-    margin: 0 0 1.5rem;
-    color: $black;
+    margin-bottom: $margin;
+    color: $header-color;
     @media all and (max-width: $breakpoint-tablet) {
-      color: $black;
+      color: $header-color;
       cursor: pointer;
       margin: 0;
     }
@@ -31,8 +26,8 @@ footer {
 
   .menus {
     @media all and (max-width: $breakpoint-tablet) {
-      margin-top: 3rem;
-      border-top: 1px solid $medium-gray;
+      margin-top: $margin;
+      border-top: $mobile-menu-border;
     }
   }
 
@@ -41,7 +36,7 @@ footer {
     list-style: none;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: $margin;
       display: inline-block;
       @media all and (max-width: $breakpoint-tablet) {
         margin-bottom: 0;
@@ -52,7 +47,7 @@ footer {
       li {
         width: 100%;
         @media all and (max-width: $breakpoint-tablet) {
-          padding: 0 0 1rem 1rem;
+          padding: 0 0 $margin $margin;
         }
       }
     }
@@ -61,29 +56,23 @@ footer {
   input,
   [type='text'],
   button {
-    width: 250px;
-  }
-
-  ::placeholder {
-    color: $medium-dark-gray;
-    font-family: $primary-font-family;
-    font-size: .875rem;
+    width: $form-element-max-width;
   }
 
   .bottom {
-    font-size: .8rem;
-    margin: 2rem 0;
+    font-size: $small-font-size;
+    margin: $margin 0;
 
     ul {
       list-style: none;
 
       li {
         display: inline;
-        margin-right: .5rem;
+        margin-right: $margin/2;
 
         &:after {
           content: '|';
-          margin-left: .5rem;
+          margin-left: $margin/2;
         }
 
         &:last-of-type,
@@ -97,7 +86,7 @@ footer {
         }
 
         &:first-of-type {
-          margin-right: 1rem;
+          margin-right: $margin;
         }
       }
     }

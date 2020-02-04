@@ -822,3 +822,9 @@ $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
+// IE11 bug fix
+@media print, screen and (min-width: 48em) {
+  .auto, .medium-auto {
+    flex: 1 1 0% !important;
+  }
+}

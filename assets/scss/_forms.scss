@@ -1,5 +1,3 @@
-@import "variables";
-
 .form-element-styles {
   font-family: $primary-font-family;
   font-size: 1rem;
@@ -10,6 +8,7 @@
 
 input[type='text'],
 input[type='email'],
+input[type='number'],
 input[type='password'],
 select {
   height: 3rem;
@@ -52,17 +51,55 @@ legend {
   font-size: 1rem;
 }
 
-input {
-  &.search,
-  &#search {
-    background: url("../images/icon-search.png") no-repeat center right 10px;
-  }
-}
-
 select {
-  background: white url("../images/select-menu-caret.png") no-repeat right 10px center;
+  background: transparent url("../images/select-menu.svg") no-repeat center right 10px;
+  background-size: 1rem;
 
   option {
     @extend .form-element-styles;
+  }
+}
+
+.input-group-button {
+  margin-bottom: 1rem;
+}
+
+.required {
+  color: $medium-dark-gray;
+  font-size: .875rem;
+  float: right;
+}
+
+.search-field {
+  position: relative;
+
+  .search-button {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: 42px;
+    right: 10px;
+    z-index: 100;
+    background: transparent url("../images/search.svg") no-repeat center right;
+  }
+}
+
+.password-field {
+  position: relative;
+
+  .toggle-password {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    top: 42px;
+    right: 10px;
+    z-index: 100;
+    background: transparent url("../images/eye.svg") no-repeat center right;
+
+    &.visible {
+      background: transparent url("../images/eye-slash.svg") no-repeat center right;
+    }
   }
 }

@@ -1,8 +1,9 @@
-@import "../variables";
+$padding: 6rem;
+$background: $light-gray;
 
 .reviews {
-  @extend .bg-light-gray;
-  padding: 100px 0;
+  background: $background;
+  padding: $padding 0;
   text-align: center;
 
   &.left {

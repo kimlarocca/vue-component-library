@@ -129,7 +129,11 @@
 
     export default {
         name: 'VFooter',
-        components: { SocialLink, Accordion, AccordionItem },
+        components: {
+            'social-link': SocialLink,
+            'accordion': Accordion,
+            'accordion-item': AccordionItem
+        },
         data: function () {
             return {
                 currentYear: this.getCurrentYear(),

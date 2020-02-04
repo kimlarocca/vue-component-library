@@ -30,3 +30,7 @@ Components in the components folder are automatically globally registered (see p
 Routes for all pages in the pages folder are automatically created.
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Font Awesome
+
+This site uses font awesome icons, which are unmodified (license at https://fontawesome.com/license)

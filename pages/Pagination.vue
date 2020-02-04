@@ -1,25 +1,27 @@
 <template>
-  <div>
+    <div>
 
-    <div class="container">
+        <div class="container">
 
-      <h1>pagination component</h1>
+            <h1>pagination component</h1>
 
-      <hr class="margin-vertical-3">
+            <hr class="margin-vertical-3">
 
-      <pagination/>
+            <pagination/>
 
-      <div class="section-padding-100"></div>
+            <div class="section-padding-100"></div>
+
+        </div>
 
     </div>
-
-  </div>
 </template>
 
 <script>
-  import Pagination from '../components/Pagination'
+    import Pagination from '../components/Pagination'
 
-  export default {
-    components: { Pagination }
-  }
+    export default {
+        components: {
+            'pagination': Pagination
+        }
+    }
 </script>

@@ -1,41 +1,44 @@
 <template>
-  <div>
+    <div>
 
-    <div class="container">
+        <div class="container">
 
-      <h1>breadcrumbs component</h1>
+            <h1>breadcrumbs component</h1>
 
-      <hr class="margin-vertical-3">
+            <hr class="margin-vertical-3">
 
-      <h6 class="margin-bottom-1">Use in your project:</h6>
-      <p class="bg-light-gray padding-1 margin-bottom-2">npm i @bit/kimlarocca.vue.breadcrumbs</p>
-      <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
-      <p>This component will have fields for:</p>
-      <ul>
-        <li>:crumbs - an array of objects containing the breadcrumb name and link</li>
-        <li>&nbsp;&nbsp;&nbsp;[{name, link}] - link is optional</li>
-        <li>&nbsp;&nbsp;&nbsp;the separator is defined in the _breadcrumbs.scss file</li>
-      </ul>
+            <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
+            <p>This component will have fields for:</p>
+            <ul class="margin-bottom-1">
+                <li>name - the name of the page</li>
+                <li>link - the link to the page (optional)</li>
+            </ul>
+            <p><em>Note: the full breadcrumbs will be shown on desktop, but on mobile only the previous level will be shown</em></p>
 
-      <div class="section-padding-50"></div>
+            <div class="section-padding-25"></div>
 
-      <h6 class="margin-bottom-1">Example:</h6>
+            <p><strong>EXAMPLE:</strong></p>
+            <div class="section-padding-25"></div>
 
-      <breadcrumbs
-        :crumbs="[{name: 'Home', link: 'http://www.google.com'},{name: 'Resources', link: 'http://www.yahoo.com'},{name: 'This Article', link: ''}]"
-      >
-      </breadcrumbs>
+            <breadcrumbs
+                    :crumbs="[{name: 'Home', link: 'http://www.google.com'},{name: 'Resources', link: 'http://www.yahoo.com'},{name: 'This Article', link: ''}]"
+            >
+            </breadcrumbs>
 
-      <div class="section-padding-50"></div>
+            <div class="section-padding-100"></div>
 
-      <breadcrumbs class="bg-light-gray padding-1"
-        :crumbs="[{name: 'Home', link: 'http://www.google.com'},{name: 'Resources', link: 'http://www.yahoo.com'},{name: 'This Article', link: ''}]"
-      >
-      </breadcrumbs>
-
-      <div class="section-padding-100"></div>
+        </div>
 
     </div>
-
-  </div>
 </template>
+
+<script>
+    import Breadcrumbs from '../components/Breadcrumbs'
+
+    export default {
+        name: 'BiographyCardPage',
+        components: {
+            'breadcrumbs': Breadcrumbs
+        }
+    }
+</script>

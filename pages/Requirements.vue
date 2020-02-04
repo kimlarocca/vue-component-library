@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="requirements-generator">
         <div class="section-padding-100"></div>
         <div v-if="!submitted" class="container">
             <h1>Requirements Document Generator</h1>

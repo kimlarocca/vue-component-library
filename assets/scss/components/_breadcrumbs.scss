@@ -1,0 +1,59 @@
+.breadcrumbs {
+
+  $color: $black;
+  $breadcrumb-link-color: $link-color;
+  $margin: 5px;
+  $separator: '/';
+  $mobile-back-character: '\02039';
+
+  .crumbs {
+
+    list-style: none;
+
+    a,
+    a:visited,
+    a:active {
+      color: $breadcrumb-link-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $color;
+      }
+    }
+
+    li {
+      display: inline;
+      margin-right: $margin;
+      color: $color;
+
+      &:after {
+        margin-left: $margin;
+        content: $separator;
+      }
+
+      &:last-of-type {
+        &:after {
+          content: '';
+        }
+      }
+
+      @media all and (max-width: $breakpoint-mobile) {
+        display: none;
+
+        &:nth-last-child(2) {
+          display: block;
+          margin-left: 0;
+
+          &:before {
+            content: $mobile-back-character;
+            margin-right: $margin;
+          }
+
+          &:after {
+            content: '';
+          }
+        }
+      }
+    }
+  }
+}
