@@ -2,7 +2,6 @@
     <div>
         <div class="container">
             <h1>accordions</h1>
-
             <hr class="margin-vertical-3"/>
 
             <p>
