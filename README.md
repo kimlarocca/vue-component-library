@@ -1,6 +1,6 @@
-# nuxt-test
+# vue-component-library
 
-> My brilliant Nuxt.js project
+> A frontend component library built with Vue, Nuxt, and Foundation.
 
 ## Build Setup
 
