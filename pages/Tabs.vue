@@ -2,16 +2,9 @@
     <div>
 
         <div class="container margin-vertical-2">
-
             <h1>tabs</h1>
-            <p class="subhead5 padding">
-                <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-            </p>
-
             <hr class="margin-vertical-3">
-
             <p><em>* you may need to press refresh to get jquery to load</em></p>
-
         </div>
 
         <section>

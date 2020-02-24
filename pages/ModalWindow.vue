@@ -1,12 +1,7 @@
 <template>
     <div class="container">
         <h1>modal window</h1>
-        <p class="subhead5 padding">
-            <nuxt-link to="/">&lt; back to style guide</nuxt-link>
-        </p>
-
         <hr class="margin-vertical-3">
-
         <p><em>* you may need to press refresh to get jquery to load</em></p>
 
         <a class="button modal-trigger" data-id="modal1" tabindex="0">trigger modal window</a>
