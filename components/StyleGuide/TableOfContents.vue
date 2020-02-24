@@ -58,7 +58,8 @@
                     { 'name': 'Modal Windows', 'link': 'ModalWindow' },
                     { 'name': 'Pagination', 'link': 'Pagination' },
                     { 'name': 'Reviews / Testimonials', 'link': 'Reviews' },
-                    { 'name': 'Social Links', 'link': 'SocialLinks' }
+                    { 'name': 'Social Links', 'link': 'SocialLinks' },
+                    { 'name': 'Tabs', 'link': 'Tabs' }
                 ],
                 isOpen: false
             }
