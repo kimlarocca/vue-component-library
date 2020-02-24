@@ -1,0 +1,52 @@
+$overlay-background: rgba(0, 0, 0, .8);
+$modal-background: $white;
+$modal-shadow: 0px 0px 10px 1px rgba(51, 51, 51, 0.25);
+$modal-padding: 60px;
+$modal-size: 80%;
+
+.modal {
+  display: none;
+  z-index: 2000;
+  background: $modal-background;
+  box-shadow: $modal-shadow;
+  padding: $modal-padding;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: $modal-size;
+  height: $modal-size;
+  margin: auto;
+  overflow-y: auto;
+
+  &.show {
+    display: block;
+    visibility: visible;
+  }
+
+  .close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    text-decoration: none;
+  }
+}
+
+.modal-overlay {
+  background: $overlay-background;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+
+  &.show {
+    display: block;
+    visibility: visible;
+  }
+}

@@ -55,6 +55,7 @@
                     { 'name': 'Heroes', 'link': 'Hero' },
                     { 'name': 'Images With Captions', 'link': 'ImageWithCaption' },
                     { 'name': 'Media Blocks', 'link': 'MediaBlock' },
+                    { 'name': 'Modal Windows', 'link': 'ModalWindow' },
                     { 'name': 'Pagination', 'link': 'Pagination' },
                     { 'name': 'Reviews / Testimonials', 'link': 'Reviews' },
                     { 'name': 'Social Links', 'link': 'SocialLinks' }

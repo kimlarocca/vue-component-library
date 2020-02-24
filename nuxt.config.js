@@ -39,6 +39,8 @@ export default {
     */
     plugins: [
         '~/plugins/global.js',
+        { src: '~/plugins/tabs.js', ssr: false },
+        { src: '~/plugins/modalWindow.js', ssr: false },
         { src: '~/plugins/forms.js', ssr: false }
     ],
     /*
@@ -70,7 +72,7 @@ export default {
         /*
         ** You can extend webpack config here
         */
-        publicPath: '/',
+        publicPath: '/library/',
         extractCSS: true,
         splitChunks: {
             layouts: false,
