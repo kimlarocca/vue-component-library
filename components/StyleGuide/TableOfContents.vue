@@ -21,7 +21,7 @@
                         <nuxt-link to="/#grid">The Grid</nuxt-link>
                     </p>
                     <p @click="toggleMenu">
-                        <nuxt-link to="Forms">Forms</nuxt-link>
+                        <nuxt-link to="/Forms">Forms</nuxt-link>
                     </p>
                 </li>
             </ul>
@@ -29,7 +29,7 @@
             <ul class="margin-bottom-2">
                 <li v-for="(item, index) in tocComponents" :key="index">
                     <p @click="toggleMenu">
-                        <nuxt-link :to="item.link">{{ item.name }}</nuxt-link>
+                        <nuxt-link :to="'/'+item.link">{{ item.name }}</nuxt-link>
                     </p>
                 </li>
             </ul>
