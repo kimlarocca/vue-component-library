@@ -9,7 +9,7 @@
 
             <pagination/>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

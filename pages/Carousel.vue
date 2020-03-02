@@ -8,7 +8,7 @@
             <p><strong>IMAGES:</strong></p>
             <p>We recommend a minimum image width of 1600px for this component.</p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
@@ -18,16 +18,16 @@
                 </li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
             <p>
                 <strong>EXAMPLES:</strong>
             </p>
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
         </div>
 
         <section>
-            <carousel perPage="1">
+            <carousel :perPage="1">
                 <slide>
                     <img src="https://picsum.photos/1900/900?grayscale">
                 </slide>
@@ -40,57 +40,54 @@
             </carousel>
         </section>
 
-        <div class="section-padding-100"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
         <div class="container">
             <p><strong>Card Carousel Example</strong></p>
             <p class="margin-bottom-2">shows 3 on desktop, 2 on tablet, and 1 on mobile</p>
 
             <section class="card-carousel">
-                <carousel perPage="1" :perPageCustom="[[769, 2], [1024, 3]]">
+                <carousel :perPage="1" :perPageCustom="[[769, 2], [1024, 3]]">
                     <slide>
                         <div class="card-carousel-content">
                             <card
+                                    header="Header"
                                     image="https://picsum.photos/600/400?grayscale"
                                     altText="alternative text"
-                                    link="http://www.google.com"
-                                    hasTextLink="true"
                                     subtitle="subtitle"
-                                    title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                                    title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
                             >
                             </card>
                         </div>
                     </slide>
                     <slide>
                       <div class="card-carousel-content">
-                        <card
-                                image="https://picsum.photos/600/400?grayscale"
-                                altText="alternative text"
-                                link="http://www.google.com"
-                                hasTextLink="true"
-                                subtitle="subtitle"
-                                title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                        >
-                        </card>
+                          <card
+                                  header="Header"
+                                  image="https://picsum.photos/600/400?grayscale"
+                                  altText="alternative text"
+                                  subtitle="subtitle"
+                                  title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                          >
+                          </card>
                       </div>
                     </slide>
                     <slide>
                       <div class="card-carousel-content">
-                        <card
-                                image="https://picsum.photos/600/400?grayscale"
-                                altText="alternative text"
-                                link="http://www.google.com"
-                                hasTextLink="true"
-                                subtitle="subtitle"
-                                title="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                        >
-                        </card>
+                          <card
+                                  header="Header"
+                                  image="https://picsum.photos/600/400?grayscale"
+                                  altText="alternative text"
+                                  subtitle="subtitle"
+                                  title="Title text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+                          >
+                          </card>
                       </div>
                     </slide>
                 </carousel>
             </section>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p class="margin-bottom-3"><strong>Featured "X" Carousel Example</strong></p>
             <carousel
@@ -128,7 +125,7 @@
             </carousel>
         </div>
 
-        <div class="section-padding-100"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
     </div>
 </template>
@@ -137,12 +134,14 @@
 <script>
     import Carousel from '../components/Carousel/Carousel'
     import Slide from '../components/Carousel/Slide'
+    import Card from '../components/Card'
 
     export default {
         name: 'CarouselPage',
         components: {
             'carousel': Carousel,
-            'slide': Slide
+            'slide': Slide,
+            'card': Card
         }
     }
 </script>

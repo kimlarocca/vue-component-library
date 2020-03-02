@@ -15,7 +15,7 @@
                     <h5 class="margin-bottom-1">H5 Headline No. 5</h5>
                     <h6>H6 Headline No. 6</h6>
                 </div>
-                <div class="section-padding-50"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
                 <p>This is normal paragraph text! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -67,7 +67,7 @@
                 <p><a class="caret-down">.caret-down</a></p>
             </section>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <section id="colors">
                 <h3 class="margin-bottom-2">Colors</h3>
@@ -86,7 +86,7 @@
                 </div>
             </section>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <section id="buttons">
                 <h3 class="margin-bottom-2">Buttons</h3>
@@ -100,7 +100,7 @@
                 </div>
             </section>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <section id="grid">
                 <h3 class="margin-bottom-2">Grid Examples (desktop/tablet/mobile)</h3>
@@ -141,7 +141,7 @@
                 </div>
             </section>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

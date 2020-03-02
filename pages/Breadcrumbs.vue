@@ -15,17 +15,18 @@
             </ul>
             <p><em>Note: the full breadcrumbs will be shown on desktop, but on mobile only the previous level will be shown</em></p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>EXAMPLE:</strong></p>
-            <div class="section-padding-25"></div>
+
+            <v-spacer/>
 
             <breadcrumbs
                     :crumbs="[{name: 'Home', link: 'http://www.google.com'},{name: 'Resources', link: 'http://www.yahoo.com'},{name: 'This Article', link: ''}]"
             >
             </breadcrumbs>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

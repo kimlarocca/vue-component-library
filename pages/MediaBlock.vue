@@ -12,19 +12,19 @@
                 <li>url: the iframe url for the youtube or vimeo embed</li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>EXAMPLES:</strong></p>
 
             <p>youtube:</p>
             <media-block url="https://www.youtube.com/embed/ScMzIvxBSi4"/>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p>vimeo:</p>
             <media-block url="https://player.vimeo.com/video/90283590"/>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p>in a grid:</p>
             <div class="grid-x grid-margin-x">

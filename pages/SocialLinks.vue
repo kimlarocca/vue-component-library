@@ -19,12 +19,11 @@
                 <li>icon color (default is black)</li>
                 <li>background color (default is transparent)</li>
             </ul>
-
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>EXAMPLES:</strong></p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <ul class="social-links">
                 <social-link
@@ -59,7 +58,7 @@
                 </social-link>
             </ul>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <div class="bg-dark-gray padding-3">
                 <ul class="social-links">
@@ -106,7 +105,7 @@
                 </ul>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

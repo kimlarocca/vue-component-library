@@ -9,16 +9,12 @@
 
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
-            <ul>
+            <ul class="margin-bottom-2">
                 <li>Message (rich text)</li>
-                <li>Note: the user is cookied so that once the close the banner they do not see the notice again for the
-                    rest of their session.
-                </li>
             </ul>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
-            <p>component goes here</p>
             <cookie-notification>
                 <template slot="msg">
                     <div class="like-p text-center">
@@ -29,7 +25,7 @@
                 </template>
             </cookie-notification>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

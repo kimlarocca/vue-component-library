@@ -5,7 +5,7 @@
 
             <h1>forms</h1>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
             <h3 class="margin-bottom-2">Form Examples</h3>
             <p>
                 <nuxt-link to="FormsCheckout" class="caret-right">Checkout forms including shipping info, billing info,
@@ -16,7 +16,8 @@
                 <nuxt-link to="FormsLogin" class="caret-right">Login and registration forms</nuxt-link>
             </p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
+
             <h3 class="margin-bottom-2">Basic Form Elements</h3>
             <div class="grid-x grid-margin-x grid-margin-y">
                 <div class="cell small-12 medium-auto">
@@ -97,7 +98,8 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
+
             <h3 class="margin-bottom-2">Basic Contact Form</h3>
             <form class="drop-us-a-line">
                 <div class="grid-x grid-margin-x">
@@ -119,7 +121,7 @@
                 <input type="submit" class="button" value="Send Message">
             </form>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

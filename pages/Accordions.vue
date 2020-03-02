@@ -34,7 +34,7 @@
                 <li>content</li>
             </ul>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <accordion>
                 <accordion-item>
@@ -77,11 +77,11 @@
                 </accordion-item>
             </accordion>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h6>Grid on desktop, accordions on mobile:</h6>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <accordion mobileOnly="true" class="mobile-only no-border-on-desktop">
                 <div class="grid-x grid-margin-x">
@@ -148,7 +148,7 @@
                 </div>
             </accordion>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
         </div>
     </div>
 </template>

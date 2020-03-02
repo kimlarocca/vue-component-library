@@ -17,24 +17,23 @@
                 <li>alignment: can be left or center (optional, center is the default)</li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>EXAMPLES:</strong></p>
-
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 
         <reviews/>
-
-        <div class="section-padding-100"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
         <reviews alignment="left"/>
 
-        <div class="section-padding-100"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
     </div>
 </template>
+
 <script>
     import Reviews from '../components/Reviews'
 

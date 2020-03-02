@@ -20,7 +20,9 @@
                         <a id="tab-Sunday" tabindex="0" role="tab" aria-label="Sunday" class="tab"
                            aria-controls="Sunday" href="#Sunday">Tab 4</a>
                     </div>
-                    <div class="section-padding-50"></div>
+
+                    <v-spacer/>
+
                     <div id="Thursday" class="tab-content active" aria-labelledby="tab-Thursday" role="tabpanel">
                         <p>content for tab 1</p>
                     </div>
@@ -37,7 +39,7 @@
             </div>
         </section>
 
-        <div class="section-padding-100"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
     </div>
 

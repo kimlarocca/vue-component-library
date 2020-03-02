@@ -5,7 +5,7 @@
 
             <h1 class="margin-bottom-1">footer</h1>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
         </div>
 

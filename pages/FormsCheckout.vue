@@ -6,8 +6,7 @@
             <h1>checkout forms</h1>
             <p><nuxt-link to="Forms" class="caret-right">Click here to view basic form elements</nuxt-link></p>
 
-
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Shipping Address</h3>
             <div class="grid-x grid-margin-x">
@@ -349,7 +348,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Billing Address</h3>
             <fieldset class="large-7 cell margin-bottom-1">
@@ -698,7 +697,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Gift Certificate</h3>
             <p>If you'd like to apply a gift certificate to this purchase, please enter the code below and click the
@@ -711,7 +710,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Card Information</h3>
             <form class="card-information">
@@ -774,7 +773,7 @@
                 </div>
             </form>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

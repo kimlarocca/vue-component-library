@@ -20,13 +20,14 @@
                 <li>content (optional)</li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
+
             <p><strong>EXAMPLES:</strong></p>
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>White style:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <callout
                     title="Lorem Ipsum Dolor Sit Amet"
@@ -43,11 +44,11 @@
                 </slot>
             </callout>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>Gray style:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <callout
                     title="Lorem Ipsum Dolor Sit Amet"
@@ -65,11 +66,11 @@
                 </slot>
             </callout>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>Dark style:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <callout
                     title="Lorem Ipsum Dolor Sit Amet"
@@ -87,11 +88,11 @@
                 </slot>
             </callout>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>Primary color style:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <callout
                     title="Lorem Ipsum Dolor Sit Amet"
@@ -109,11 +110,11 @@
                 </slot>
             </callout>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>Secondary color style:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <callout
                     title="Lorem Ipsum Dolor Sit Amet"
@@ -131,11 +132,11 @@
                 </slot>
             </callout>
 
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>On a right rail:</strong></p>
 
-            <div class="section-padding-50"></div>
+            <v-spacer/>
 
             <div class="grid-x grid-margin-x grid-margin-y">
                 <div class="cell medium-8 small-12">
@@ -174,7 +175,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

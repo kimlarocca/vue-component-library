@@ -10,7 +10,7 @@
             <p><strong>IMAGES:</strong></p>
             <p>We recommend a minimum image width of 768px for this component.</p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
@@ -21,9 +21,10 @@
                 <li>Link (optional)</li>
                 <li>Description (optional)</li>
                 <li>Alignment: can be left, center or centered-on-mobile (optional, the default is left)</li>
-            </ul>
+            </ul>Note: the user is cookied so that once the close the banner they do not see the notice again for the
+            rest of their session.
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>EXAMPLES:</strong></p>
 
@@ -41,9 +42,7 @@
                 </slot>
             </cta-card>
 
-            <div class="section-padding-50"></div>
-            <hr>
-            <div class="section-padding-50"></div>
+            <hr class="margin-vertical-3">
 
             <cta-card
                     title="Left Aligned CTA"
@@ -59,9 +58,7 @@
                 </slot>
             </cta-card>
 
-            <div class="section-padding-50"></div>
-            <hr>
-            <div class="section-padding-50"></div>
+            <hr class="margin-vertical-3">
 
             <div class="grid-x grid-margin-x grid-margin-y">
                 <div class="cell medium-4">
@@ -120,9 +117,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-50"></div>
-            <hr>
-            <div class="section-padding-50"></div>
+            <hr class="margin-vertical-3">
 
             <cta-card
                     title="Centered On Mobile"
@@ -139,7 +134,7 @@
                 </slot>
             </cta-card>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

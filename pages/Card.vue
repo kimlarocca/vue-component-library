@@ -10,7 +10,7 @@
             <p><strong>IMAGES:</strong></p>
             <p>We recommend a minimum image width of 768px for this component.</p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
@@ -27,7 +27,7 @@
                 </li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <p><strong>EXAMPLES:</strong></p>
 
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="section-padding-100"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 

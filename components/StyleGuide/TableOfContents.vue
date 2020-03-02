@@ -43,6 +43,7 @@
             return {
                 tocComponents: [
                     { 'name': 'Accordions', 'link': 'Accordions' },
+                    { 'name': 'Base Components', 'link': 'BaseComponents' },
                     { 'name': 'Biography Cards', 'link': 'BiographyCard' },
                     { 'name': 'Breadcrumbs', 'link': 'Breadcrumbs' },
                     { 'name': 'Callouts', 'link': 'Callout' },

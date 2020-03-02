@@ -44,34 +44,6 @@
   font-family: 'Font Awesome 5 Brands', serif;
 }
 
-@font-face {
-  font-family: 'Beatrice';
-  src: url('~assets/fonts/Beatrice-Regular.eot'); /* IE9 Compat Modes */
-  src: url('~assets/fonts/Beatrice-Regular.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('~assets/fonts/Beatrice-Regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('~assets/fonts/Beatrice-Regular.woff')
-      format('woff'),
-    /* Pretty Modern Browsers */ url('~assets/fonts/Beatrice-Regular.ttf')
-      format('truetype'); /* Safari, Android, iOS */
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Beatrice';
-  src: url('~assets/fonts/Beatrice-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('~assets/fonts/Beatrice-Semibold.eot?#iefix')
-      format('embedded-opentype'),
-    /* IE6-IE8 */ url('~assets/fonts/Beatrice-Semibold.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('~assets/fonts/Beatrice-Semibold.woff')
-      format('woff'),
-    /* Pretty Modern Browsers */ url('~assets/fonts/Beatrice-Semibold.ttf')
-      format('truetype'); /* Safari, Android, iOS */
-  font-weight: 700;
-  font-style: normal;
-}
-
 h1,
 h2,
 h3,
@@ -96,8 +68,8 @@ h1,
 
 h2,
 .like-h2 {
-  font-size: 3.25rem;
-  line-height: 3.25rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   text-transform: none;
   font-family: $secondary-font-family;
   font-weight: normal;
@@ -109,8 +81,8 @@ h2,
 
 h3,
 .like-h3 {
-  font-size: 1.6875rem;
-  line-height: 2.125rem;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
   text-transform: none;
   font-family: $secondary-font-family;
   font-weight: normal;
@@ -118,23 +90,18 @@ h3,
 
 h4,
 .like-h4 {
-  font-size: 1.4375rem;
-  line-height: 2.4375rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   text-transform: none;
   font-weight: normal;
   font-family: $primary-font-family;
-
-  &.strong {
-    text-transform: uppercase;
-    font-weight: 600;
-  }
 }
 
 h5,
 .like-h5 {
   text-transform: none;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
   font-weight: 700;
   font-family: $primary-font-family;
 }

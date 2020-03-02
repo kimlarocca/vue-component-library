@@ -1,6 +1,8 @@
 <template>
     <div class="requirements-generator">
-        <div class="section-padding-100"></div>
+
+        <v-spacer :size="[2,3,4]"></v-spacer>
+
         <div v-if="!submitted" class="container">
             <h1>Requirements Document Generator</h1>
             <form @submit.prevent="submitted = !submitted">
@@ -29,72 +31,72 @@
             <div v-if="accordions">
                 <accordions-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="biographyCard">
                 <biography-card-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="breadcrumbs">
                 <breadcrumbs-card-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="callout">
                 <callout-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="card">
                 <card-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="carousel">
                 <carousel-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="ctaCard">
                 <cta-card-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="footer">
                 <footer-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="hero">
                 <hero-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="imageWithCaptions">
                 <image-with-caption-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="mediaBlock">
                 <media-block-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="pagination">
                 <pagination-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="reviews">
                 <reviews-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
             <div v-if="socialLinks">
                 <social-links-page/>
                 <hr>
-                <div class="section-padding-100"></div>
+                <v-spacer :size="[2,3,4]"></v-spacer>
             </div>
         </div>
     </div>

@@ -11,7 +11,7 @@
             <p><strong>IMAGES:</strong></p>
             <p>We recommend a minimum image width of 1600px for this component.</p>
 
-            <div class="section-padding-25"></div>
+            <v-spacer/>
 
             <p><strong>RULES &amp; DEPENDENCIES:</strong></p>
             <p>This component will have fields for:</p>
@@ -22,7 +22,7 @@
                 <li>alignment: can be left or center (optional - center is the default)</li>
             </ul>
 
-            <div class="section-padding-25"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
             <p><strong>EXAMPLES:</strong></p>
 
         </div>
@@ -39,7 +39,7 @@
             </slot>
         </hero>
 
-        <div class="section-padding-50"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
         <hero
                 size="large"
@@ -54,7 +54,7 @@
             </slot>
         </hero>
 
-        <div class="section-padding-50"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
         <hero
                 size="small"
@@ -69,7 +69,7 @@
             </slot>
         </hero>
 
-        <div class="section-padding-50"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
         <hero
                 size="small"
@@ -83,7 +83,7 @@
             </slot>
         </hero>
 
-        <div class="section-padding-50"></div>
+        <v-spacer :size="[2,3,4]"></v-spacer>
 
     </div>
 

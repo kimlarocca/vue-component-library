@@ -1,9 +1,9 @@
 @import "reset";
 @import "variables";
-// https://foundation.zurb.com/sites/docs/sass.html
+
+// foundation
 @import 'settings';
 @import '~foundation-sites/scss/foundation';
-
 @include foundation-global-styles;
 @include foundation-forms;
 @include foundation-text-alignment;
@@ -13,11 +13,11 @@
 @include foundation-visibility-classes;
 @include foundation-prototype-spacing;
 
+// font awesome
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 
 @import "global";
 @import "components/components";
-@import "editor-styles";
 
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -93,14 +93,6 @@ hr {
   border: 0;
   height: 1px;
   background: $medium-gray;
-  margin: 2rem 0;
-  @media all and (max-width: $breakpoint-mobile) {
-    margin: 1rem 0;
-  }
-
-  &.white {
-    background: $white;
-  }
 }
 
 .container {
@@ -110,46 +102,5 @@ hr {
 
   @media all and (max-width: $breakpoint-tablet) {
     width: calc(100% - 2rem);
-  }
-}
-
-.section-padding-100 {
-  padding-top: 100px;
-  @media all and (max-width: $breakpoint-mobile) {
-    padding-top: 50px;
-  }
-}
-
-.section-padding-50 {
-  padding-top: 50px;
-  @media all and (max-width: $breakpoint-mobile) {
-    padding-top: 25px;
-  }
-}
-
-.section-padding-25 {
-  padding-top: 25px;
-}
-
-//extends foundation xy grid to add 2x margin-x gutters option on desktop
-.grid-margin-2x {
-  @media all and (min-width: $breakpoint-tablet+1) {
-    margin-left: -2rem;
-    margin-right: -2rem;
-  }
-
-  .cell {
-    @media all and (min-width: $breakpoint-tablet+1) {
-      width: calc(33.33333% - 4rem);
-      margin-left: 2rem;
-      margin-right: 2rem;
-    }
-  }
-}
-
-.two-column-content {
-  columns: 300px 2;
-  @media all and (max-width: $breakpoint-mobile) {
-    columns: 300px 1;
   }
 }

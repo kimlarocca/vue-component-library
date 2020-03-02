@@ -8,8 +8,7 @@
                 <nuxt-link to="Forms" class="caret-right">Click here to view basic form elements</nuxt-link>
             </p>
 
-
-            <div class="section-padding-50"></div>
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Login</h3>
             <form class="login-form">
@@ -25,7 +24,8 @@
                 <button class="button purple margin-vertical-1" type="submit">Continue</button>
                 <p class="margin-bottom-2"><a href="#">Forgot your password?</a></p>
             </form>
-            <div class="section-padding-100"></div>
+
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
             <h3 class="margin-bottom-2">Registration</h3>
 
@@ -69,7 +69,8 @@
                 </div>
                 <button class="button purple margin-vertical-1" type="submit">continue</button>
             </form>
-            <div class="section-padding-100"></div>
+
+            <v-spacer :size="[2,3,4]"></v-spacer>
 
         </div>
 
