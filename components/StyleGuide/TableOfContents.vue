@@ -23,6 +23,9 @@
                     <p @click="toggleMenu">
                         <nuxt-link to="/Forms">Forms</nuxt-link>
                     </p>
+                    <p @click="toggleMenu">
+                        <nuxt-link to="/BaseComponents">BaseComponents</nuxt-link>
+                    </p>
                 </li>
             </ul>
             <p><strong>Components</strong></p>
@@ -43,7 +46,6 @@
             return {
                 tocComponents: [
                     { 'name': 'Accordions', 'link': 'Accordions' },
-                    { 'name': 'Base Components', 'link': 'BaseComponents' },
                     { 'name': 'Biography Cards', 'link': 'BiographyCard' },
                     { 'name': 'Breadcrumbs', 'link': 'Breadcrumbs' },
                     { 'name': 'Callouts', 'link': 'Callout' },
