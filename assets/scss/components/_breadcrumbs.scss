@@ -2,9 +2,11 @@
 
   $color: $black;
   $breadcrumb-link-color: $link-color;
-  $margin: 5px;
+  $margin: 10px;
   $separator: '/';
-  $mobile-back-character: '\02039';
+  $separator-color: $black;
+  $mobile-back-character: '\f104';
+  $mobile-back-character-color: $link-color;
 
   .crumbs {
 
@@ -29,6 +31,7 @@
       &:after {
         margin-left: $margin;
         content: $separator;
+        color: $separator-color;
       }
 
       &:last-of-type {
@@ -45,8 +48,11 @@
           margin-left: 0;
 
           &:before {
+            font-family: $font-awesome;
+            font-weight: 900;
             content: $mobile-back-character;
             margin-right: $margin;
+            color: $mobile-back-character-color;
           }
 
           &:after {
