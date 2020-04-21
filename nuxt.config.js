@@ -2,7 +2,7 @@ export default {
 
     /* delete this section if your SPA is running in the server root directory */
     router: {
-        base: '/library/'
+        base: '/'
     },
 
     mode: 'universal',
@@ -66,13 +66,13 @@ export default {
     ** Build configuration
     */
     dev: {
-        publicPath: '/library/'
+        publicPath: '/'
     },
     build: {
         /*
         ** You can extend webpack config here
         */
-        publicPath: '/library/',
+        publicPath: '/',
         extractCSS: true,
         splitChunks: {
             layouts: false,
